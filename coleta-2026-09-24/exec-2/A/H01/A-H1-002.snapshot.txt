@@ -1,0 +1,15 @@
+uid=1_0 RootWebArea "Tarefas · Novo Ploomes Offline" url="file:///C:/Users/EduardoDamiao/Documents/MBA%20USPEsalq/objeto/tarefas_crm.html"
+  uid=1_1 main
+    uid=17_0 button "Criar tarefa"
+    uid=1_64 button "Expandir painel"
+    uid=1_65 button "Hoje"
+    uid=1_66 button "Anterior"
+    uid=1_67 button "Próximo"
+    uid=1_68 StaticText "Setembro de 2026"
+    uid=1_69 textbox "Pesquisar tarefas…"
+    uid=1_70 button "Busca avançada" expandable
+    uid=1_71 button "Status das tarefas" expandable haspopup="listbox"
+    uid=1_72 button "Modo de visualização" expandable haspopup="listbox"
+    uid=1_73 button "Calendário"
+    uid=1_74 button "Lista" pressed
+    uid=17_1 StaticText "Nenhuma tarefa encontrada."

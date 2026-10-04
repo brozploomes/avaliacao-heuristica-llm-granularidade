@@ -1,0 +1,6 @@
+semente=20260924
+algoritmo=random.Random(semente).shuffle sobre a ordem de entrada das fontes
+ordem_de_entrada=A/exec-1 | B/exec-1 | C/exec-1 | A/exec-2 | B/exec-2 | C/exec-2 | A/exec-3 | B/exec-3 | C/exec-3
+total_achados_cegos=476
+largura_chave=3
+data=2026-09-24T01:33:10

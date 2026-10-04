@@ -1,0 +1,114 @@
+{
+  "mcpServers": {
+    "cdp-01": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "chrome-devtools-mcp@1.8.0",
+        "--isolated",
+        "--headless",
+        "--viewport",
+        "1440x900"
+      ]
+    },
+    "cdp-02": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "chrome-devtools-mcp@1.8.0",
+        "--isolated",
+        "--headless",
+        "--viewport",
+        "1440x900"
+      ]
+    },
+    "cdp-03": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "chrome-devtools-mcp@1.8.0",
+        "--isolated",
+        "--headless",
+        "--viewport",
+        "1440x900"
+      ]
+    },
+    "cdp-04": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "chrome-devtools-mcp@1.8.0",
+        "--isolated",
+        "--headless",
+        "--viewport",
+        "1440x900"
+      ]
+    },
+    "cdp-05": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "chrome-devtools-mcp@1.8.0",
+        "--isolated",
+        "--headless",
+        "--viewport",
+        "1440x900"
+      ]
+    },
+    "cdp-06": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "chrome-devtools-mcp@1.8.0",
+        "--isolated",
+        "--headless",
+        "--viewport",
+        "1440x900"
+      ]
+    },
+    "cdp-07": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "chrome-devtools-mcp@1.8.0",
+        "--isolated",
+        "--headless",
+        "--viewport",
+        "1440x900"
+      ]
+    },
+    "cdp-08": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "chrome-devtools-mcp@1.8.0",
+        "--isolated",
+        "--headless",
+        "--viewport",
+        "1440x900"
+      ]
+    },
+    "cdp-09": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "chrome-devtools-mcp@1.8.0",
+        "--isolated",
+        "--headless",
+        "--viewport",
+        "1440x900"
+      ]
+    },
+    "cdp-10": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "chrome-devtools-mcp@1.8.0",
+        "--isolated",
+        "--headless",
+        "--viewport",
+        "1440x900"
+      ]
+    }
+  }
+}

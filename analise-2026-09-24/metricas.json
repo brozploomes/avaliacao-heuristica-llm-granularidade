@@ -1,0 +1,3374 @@
+{
+ "denominadores": {
+  "D": 83,
+  "achados_unificados": 93,
+  "falsos_positivos": 10,
+  "nota": "D é o conjunto agregado: união dos defeitos das execuções analisadas; nunca é proporção dos problemas do objeto."
+ },
+ "por_execucao": {
+  "A/1": {
+   "formato": "A",
+   "execucao": 1,
+   "achados": 76,
+   "achados_unificados": 61,
+   "defeitos": 55,
+   "falsos_positivos": 6,
+   "achados_em_defeitos": 69,
+   "achados_em_falsos_positivos": 7,
+   "severidade_ia_zero": 0,
+   "fora_do_escopo": 0,
+   "precisao_defeito": 0.9016393442622951,
+   "precisao_achado": 0.9078947368421053,
+   "taxa_fp_defeito": 0.09836065573770492,
+   "taxa_fp_achado": 0.09210526315789469,
+   "recall": 0.6626506024096386,
+   "f1": 0.7638888888888888,
+   "duplicacao": {
+    "excedentes": {
+     "atribuicao_multipla": 13,
+     "recorrencia_ou_intrinseca_indeterminada": 1
+    },
+    "ampla": 14,
+    "taxas": {
+     "atribuicao_multipla": 0.17105263157894737,
+     "recorrencia_ou_intrinseca_indeterminada": 0.013157894736842105
+    },
+    "taxa_ampla": 0.18421052631578946
+   },
+   "custo": {
+    "tokens_total": 1547912,
+    "usos_ferramenta_total": 1232,
+    "duracao_ms_soma": 9518887,
+    "duracao_ms_max": 1264404,
+    "duracao_total_s": 1587,
+    "duracao_avaliacao_s": 1408,
+    "modo_execucao": "paralela",
+    "concorrencia_observada": "paralela",
+    "chamadas": [
+     {
+      "chamada": "H1",
+      "duracao_ms": 1081715,
+      "tokens": 151719,
+      "usos_ferramenta": 109,
+      "achados": 8
+     },
+     {
+      "chamada": "H2",
+      "duracao_ms": 1047375,
+      "tokens": 168688,
+      "usos_ferramenta": 129,
+      "achados": 9
+     },
+     {
+      "chamada": "H3",
+      "duracao_ms": 1105041,
+      "tokens": 166132,
+      "usos_ferramenta": 159,
+      "achados": 5
+     },
+     {
+      "chamada": "H4",
+      "duracao_ms": 1264404,
+      "tokens": 218246,
+      "usos_ferramenta": 158,
+      "achados": 12
+     },
+     {
+      "chamada": "H5",
+      "duracao_ms": 946370,
+      "tokens": 137799,
+      "usos_ferramenta": 125,
+      "achados": 8
+     },
+     {
+      "chamada": "H6",
+      "duracao_ms": 1215093,
+      "tokens": 188069,
+      "usos_ferramenta": 163,
+      "achados": 7
+     },
+     {
+      "chamada": "H7",
+      "duracao_ms": 820869,
+      "tokens": 120431,
+      "usos_ferramenta": 111,
+      "achados": 8
+     },
+     {
+      "chamada": "H8",
+      "duracao_ms": 742157,
+      "tokens": 153444,
+      "usos_ferramenta": 108,
+      "achados": 7
+     },
+     {
+      "chamada": "H9",
+      "duracao_ms": 776847,
+      "tokens": 140005,
+      "usos_ferramenta": 105,
+      "achados": 7
+     },
+     {
+      "chamada": "H10",
+      "duracao_ms": 519016,
+      "tokens": 103379,
+      "usos_ferramenta": 65,
+      "achados": 5
+     }
+    ],
+    "defeitos_por_hora": 20.800751180258786,
+    "defeitos_por_mil_tokens": 0.03553173565422324
+   }
+  },
+  "A/2": {
+   "formato": "A",
+   "execucao": 2,
+   "achados": 77,
+   "achados_unificados": 57,
+   "defeitos": 53,
+   "falsos_positivos": 4,
+   "achados_em_defeitos": 73,
+   "achados_em_falsos_positivos": 4,
+   "severidade_ia_zero": 0,
+   "fora_do_escopo": 0,
+   "precisao_defeito": 0.9298245614035088,
+   "precisao_achado": 0.948051948051948,
+   "taxa_fp_defeito": 0.07017543859649122,
+   "taxa_fp_achado": 0.051948051948051965,
+   "recall": 0.6385542168674698,
+   "f1": 0.757142857142857,
+   "duplicacao": {
+    "excedentes": {
+     "atribuicao_multipla": 20
+    },
+    "ampla": 20,
+    "taxas": {
+     "atribuicao_multipla": 0.2597402597402597
+    },
+    "taxa_ampla": 0.2597402597402597
+   },
+   "custo": {
+    "tokens_total": 1760238,
+    "usos_ferramenta_total": 1516,
+    "duracao_ms_soma": 15739699,
+    "duracao_ms_max": 3010711,
+    "duracao_total_s": 3463,
+    "duracao_avaliacao_s": 3053,
+    "modo_execucao": "paralela",
+    "concorrencia_observada": "paralela",
+    "chamadas": [
+     {
+      "chamada": "H1",
+      "duracao_ms": 3010711,
+      "tokens": 283921,
+      "usos_ferramenta": 259,
+      "achados": 11
+     },
+     {
+      "chamada": "H2",
+      "duracao_ms": 1245947,
+      "tokens": 166985,
+      "usos_ferramenta": 133,
+      "achados": 8
+     },
+     {
+      "chamada": "H3",
+      "duracao_ms": 1379103,
+      "tokens": 164324,
+      "usos_ferramenta": 136,
+      "achados": 5
+     },
+     {
+      "chamada": "H4",
+      "duracao_ms": 2132106,
+      "tokens": 249296,
+      "usos_ferramenta": 207,
+      "achados": 16
+     },
+     {
+      "chamada": "H5",
+      "duracao_ms": 1400670,
+      "tokens": 155772,
+      "usos_ferramenta": 140,
+      "achados": 10
+     },
+     {
+      "chamada": "H6",
+      "duracao_ms": 1414736,
+      "tokens": 165849,
+      "usos_ferramenta": 136,
+      "achados": 5
+     },
+     {
+      "chamada": "H7",
+      "duracao_ms": 1766126,
+      "tokens": 182937,
+      "usos_ferramenta": 165,
+      "achados": 5
+     },
+     {
+      "chamada": "H8",
+      "duracao_ms": 1340761,
+      "tokens": 144931,
+      "usos_ferramenta": 142,
+      "achados": 6
+     },
+     {
+      "chamada": "H9",
+      "duracao_ms": 1561579,
+      "tokens": 164078,
+      "usos_ferramenta": 134,
+      "achados": 6
+     },
+     {
+      "chamada": "H10",
+      "duracao_ms": 487960,
+      "tokens": 82145,
+      "usos_ferramenta": 64,
+      "achados": 5
+     }
+    ],
+    "defeitos_por_hora": 12.122214027091625,
+    "defeitos_por_mil_tokens": 0.030109564729315013
+   }
+  },
+  "A/3": {
+   "formato": "A",
+   "execucao": 3,
+   "achados": 74,
+   "achados_unificados": 59,
+   "defeitos": 55,
+   "falsos_positivos": 4,
+   "achados_em_defeitos": 70,
+   "achados_em_falsos_positivos": 4,
+   "severidade_ia_zero": 0,
+   "fora_do_escopo": 0,
+   "precisao_defeito": 0.9322033898305084,
+   "precisao_achado": 0.9459459459459459,
+   "taxa_fp_defeito": 0.06779661016949157,
+   "taxa_fp_achado": 0.05405405405405406,
+   "recall": 0.6626506024096386,
+   "f1": 0.7746478873239436,
+   "duplicacao": {
+    "excedentes": {
+     "atribuicao_multipla": 12,
+     "recorrencia_ou_intrinseca_indeterminada": 3
+    },
+    "ampla": 15,
+    "taxas": {
+     "atribuicao_multipla": 0.16216216216216217,
+     "recorrencia_ou_intrinseca_indeterminada": 0.04054054054054054
+    },
+    "taxa_ampla": 0.20270270270270271
+   },
+   "custo": {
+    "tokens_total": 1789096,
+    "usos_ferramenta_total": 1496,
+    "duracao_ms_soma": 10418912,
+    "duracao_ms_max": 1718102,
+    "duracao_total_s": 2252,
+    "duracao_avaliacao_s": 1788,
+    "modo_execucao": "paralela",
+    "concorrencia_observada": "paralela",
+    "chamadas": [
+     {
+      "chamada": "H1",
+      "duracao_ms": 1718102,
+      "tokens": 278509,
+      "usos_ferramenta": 234,
+      "achados": 10
+     },
+     {
+      "chamada": "H2",
+      "duracao_ms": 1095314,
+      "tokens": 189348,
+      "usos_ferramenta": 159,
+      "achados": 6
+     },
+     {
+      "chamada": "H3",
+      "duracao_ms": 918390,
+      "tokens": 160289,
+      "usos_ferramenta": 137,
+      "achados": 6
+     },
+     {
+      "chamada": "H4",
+      "duracao_ms": 1316108,
+      "tokens": 249016,
+      "usos_ferramenta": 200,
+      "achados": 14
+     },
+     {
+      "chamada": "H5",
+      "duracao_ms": 1202023,
+      "tokens": 165006,
+      "usos_ferramenta": 170,
+      "achados": 5
+     },
+     {
+      "chamada": "H6",
+      "duracao_ms": 1087789,
+      "tokens": 219280,
+      "usos_ferramenta": 184,
+      "achados": 7
+     },
+     {
+      "chamada": "H7",
+      "duracao_ms": 1069551,
+      "tokens": 160610,
+      "usos_ferramenta": 128,
+      "achados": 7
+     },
+     {
+      "chamada": "H8",
+      "duracao_ms": 595491,
+      "tokens": 115785,
+      "usos_ferramenta": 85,
+      "achados": 8
+     },
+     {
+      "chamada": "H9",
+      "duracao_ms": 872766,
+      "tokens": 155332,
+      "usos_ferramenta": 119,
+      "achados": 6
+     },
+     {
+      "chamada": "H10",
+      "duracao_ms": 543378,
+      "tokens": 95921,
+      "usos_ferramenta": 80,
+      "achados": 5
+     }
+    ],
+    "defeitos_por_hora": 19.003903670556003,
+    "defeitos_por_mil_tokens": 0.03074178244208248
+   }
+  },
+  "B/1": {
+   "formato": "B",
+   "execucao": 1,
+   "achados": 48,
+   "achados_unificados": 36,
+   "defeitos": 35,
+   "falsos_positivos": 1,
+   "achados_em_defeitos": 46,
+   "achados_em_falsos_positivos": 2,
+   "severidade_ia_zero": 0,
+   "fora_do_escopo": 0,
+   "precisao_defeito": 0.9722222222222222,
+   "precisao_achado": 0.9583333333333334,
+   "taxa_fp_defeito": 0.02777777777777779,
+   "taxa_fp_achado": 0.04166666666666663,
+   "recall": 0.42168674698795183,
+   "f1": 0.5882352941176471,
+   "duplicacao": {
+    "excedentes": {
+     "atribuicao_multipla": 10,
+     "recorrencia_ou_intrinseca_indeterminada": 1
+    },
+    "ampla": 11,
+    "taxas": {
+     "atribuicao_multipla": 0.20833333333333334,
+     "recorrencia_ou_intrinseca_indeterminada": 0.020833333333333332
+    },
+    "taxa_ampla": 0.22916666666666666
+   },
+   "custo": {
+    "tokens_total": 923218,
+    "usos_ferramenta_total": 824,
+    "duracao_ms_soma": 4888340,
+    "duracao_ms_max": 1669733,
+    "duracao_total_s": 1918,
+    "duracao_avaliacao_s": 1741,
+    "modo_execucao": "paralela",
+    "concorrencia_observada": "paralela",
+    "chamadas": [
+     {
+      "chamada": "G1",
+      "duracao_ms": 1669733,
+      "tokens": 311802,
+      "usos_ferramenta": 300,
+      "achados": 14
+     },
+     {
+      "chamada": "G2",
+      "duracao_ms": 1271151,
+      "tokens": 215768,
+      "usos_ferramenta": 187,
+      "achados": 15
+     },
+     {
+      "chamada": "G3",
+      "duracao_ms": 1074011,
+      "tokens": 224061,
+      "usos_ferramenta": 197,
+      "achados": 9
+     },
+     {
+      "chamada": "G4",
+      "duracao_ms": 873445,
+      "tokens": 171587,
+      "usos_ferramenta": 140,
+      "achados": 10
+     }
+    ],
+    "defeitos_por_hora": 25.775621172013405,
+    "defeitos_por_mil_tokens": 0.037910872621634326
+   }
+  },
+  "B/2": {
+   "formato": "B",
+   "execucao": 2,
+   "achados": 58,
+   "achados_unificados": 41,
+   "defeitos": 39,
+   "falsos_positivos": 2,
+   "achados_em_defeitos": 55,
+   "achados_em_falsos_positivos": 3,
+   "severidade_ia_zero": 0,
+   "fora_do_escopo": 0,
+   "precisao_defeito": 0.9512195121951219,
+   "precisao_achado": 0.9482758620689655,
+   "taxa_fp_defeito": 0.04878048780487809,
+   "taxa_fp_achado": 0.051724137931034475,
+   "recall": 0.46987951807228917,
+   "f1": 0.6290322580645161,
+   "duplicacao": {
+    "excedentes": {
+     "atribuicao_multipla": 15,
+     "recorrencia_ou_intrinseca_indeterminada": 1
+    },
+    "ampla": 16,
+    "taxas": {
+     "atribuicao_multipla": 0.25862068965517243,
+     "recorrencia_ou_intrinseca_indeterminada": 0.017241379310344827
+    },
+    "taxa_ampla": 0.27586206896551724
+   },
+   "custo": {
+    "tokens_total": 1098989,
+    "usos_ferramenta_total": 1016,
+    "duracao_ms_soma": 10679353,
+    "duracao_ms_max": 3649770,
+    "duracao_total_s": 3984,
+    "duracao_avaliacao_s": 3722,
+    "modo_execucao": "paralela",
+    "concorrencia_observada": "paralela",
+    "chamadas": [
+     {
+      "chamada": "G1",
+      "duracao_ms": 3251842,
+      "tokens": 339272,
+      "usos_ferramenta": 299,
+      "achados": 19
+     },
+     {
+      "chamada": "G2",
+      "duracao_ms": 3649770,
+      "tokens": 337415,
+      "usos_ferramenta": 333,
+      "achados": 16
+     },
+     {
+      "chamada": "G3",
+      "duracao_ms": 1672956,
+      "tokens": 190371,
+      "usos_ferramenta": 186,
+      "achados": 11
+     },
+     {
+      "chamada": "G4",
+      "duracao_ms": 2104785,
+      "tokens": 231931,
+      "usos_ferramenta": 198,
+      "achados": 12
+     }
+    ],
+    "defeitos_por_hora": 13.14686385963644,
+    "defeitos_por_mil_tokens": 0.035487161381961056
+   }
+  },
+  "B/3": {
+   "formato": "B",
+   "execucao": 3,
+   "achados": 53,
+   "achados_unificados": 43,
+   "defeitos": 37,
+   "falsos_positivos": 6,
+   "achados_em_defeitos": 46,
+   "achados_em_falsos_positivos": 7,
+   "severidade_ia_zero": 0,
+   "fora_do_escopo": 0,
+   "precisao_defeito": 0.8604651162790697,
+   "precisao_achado": 0.8679245283018868,
+   "taxa_fp_defeito": 0.13953488372093026,
+   "taxa_fp_achado": 0.13207547169811318,
+   "recall": 0.4457831325301205,
+   "f1": 0.5873015873015873,
+   "duplicacao": {
+    "excedentes": {
+     "atribuicao_multipla": 9
+    },
+    "ampla": 9,
+    "taxas": {
+     "atribuicao_multipla": 0.16981132075471697
+    },
+    "taxa_ampla": 0.16981132075471697
+   },
+   "custo": {
+    "tokens_total": 826331,
+    "usos_ferramenta_total": 764,
+    "duracao_ms_soma": 6038117,
+    "duracao_ms_max": 1727272,
+    "duracao_total_s": 2072,
+    "duracao_avaliacao_s": 1836,
+    "modo_execucao": "paralela",
+    "concorrencia_observada": "paralela",
+    "chamadas": [
+     {
+      "chamada": "G1",
+      "duracao_ms": 1431929,
+      "tokens": 196701,
+      "usos_ferramenta": 171,
+      "achados": 14
+     },
+     {
+      "chamada": "G2",
+      "duracao_ms": 1653927,
+      "tokens": 253364,
+      "usos_ferramenta": 215,
+      "achados": 18
+     },
+     {
+      "chamada": "G3",
+      "duracao_ms": 1727272,
+      "tokens": 194802,
+      "usos_ferramenta": 219,
+      "achados": 10
+     },
+     {
+      "chamada": "G4",
+      "duracao_ms": 1224989,
+      "tokens": 181464,
+      "usos_ferramenta": 159,
+      "achados": 11
+     }
+    ],
+    "defeitos_por_hora": 22.059857402564408,
+    "defeitos_por_mil_tokens": 0.044776245838532014
+   }
+  },
+  "C/1": {
+   "formato": "C",
+   "execucao": 1,
+   "achados": 26,
+   "achados_unificados": 23,
+   "defeitos": 22,
+   "falsos_positivos": 1,
+   "achados_em_defeitos": 24,
+   "achados_em_falsos_positivos": 2,
+   "severidade_ia_zero": 0,
+   "fora_do_escopo": 0,
+   "precisao_defeito": 0.9565217391304348,
+   "precisao_achado": 0.9230769230769231,
+   "taxa_fp_defeito": 0.04347826086956519,
+   "taxa_fp_achado": 0.07692307692307687,
+   "recall": 0.26506024096385544,
+   "f1": 0.41509433962264153,
+   "duplicacao": {
+    "excedentes": {
+     "atribuicao_multipla": 2
+    },
+    "ampla": 2,
+    "taxas": {
+     "atribuicao_multipla": 0.07692307692307693
+    },
+    "taxa_ampla": 0.07692307692307693
+   },
+   "custo": {
+    "tokens_total": 288597,
+    "usos_ferramenta_total": 268,
+    "duracao_ms_soma": 1904046,
+    "duracao_ms_max": 1904046,
+    "duracao_total_s": 2248,
+    "duracao_avaliacao_s": 1988,
+    "modo_execucao": "chamada_unica",
+    "concorrencia_observada": "nao_aplicavel",
+    "chamadas": [
+     {
+      "chamada": "unica",
+      "duracao_ms": 1904046,
+      "tokens": 288597,
+      "usos_ferramenta": 268,
+      "achados": 26
+     }
+    ],
+    "defeitos_por_hora": 41.59563371893326,
+    "defeitos_por_mil_tokens": 0.07623086865074828
+   }
+  },
+  "C/2": {
+   "formato": "C",
+   "execucao": 2,
+   "achados": 37,
+   "achados_unificados": 31,
+   "defeitos": 30,
+   "falsos_positivos": 1,
+   "achados_em_defeitos": 36,
+   "achados_em_falsos_positivos": 1,
+   "severidade_ia_zero": 0,
+   "fora_do_escopo": 0,
+   "precisao_defeito": 0.967741935483871,
+   "precisao_achado": 0.972972972972973,
+   "taxa_fp_defeito": 0.032258064516129004,
+   "taxa_fp_achado": 0.027027027027026973,
+   "recall": 0.3614457831325301,
+   "f1": 0.5263157894736842,
+   "duplicacao": {
+    "excedentes": {
+     "recorrencia_ou_intrinseca_indeterminada": 1,
+     "atribuicao_multipla": 5
+    },
+    "ampla": 6,
+    "taxas": {
+     "recorrencia_ou_intrinseca_indeterminada": 0.02702702702702703,
+     "atribuicao_multipla": 0.13513513513513514
+    },
+    "taxa_ampla": 0.16216216216216217
+   },
+   "custo": {
+    "tokens_total": 395019,
+    "usos_ferramenta_total": 410,
+    "duracao_ms_soma": 3037300,
+    "duracao_ms_max": 3037300,
+    "duracao_total_s": 3291,
+    "duracao_avaliacao_s": 3120,
+    "modo_execucao": "chamada_unica",
+    "concorrencia_observada": "nao_aplicavel",
+    "chamadas": [
+     {
+      "chamada": "unica",
+      "duracao_ms": 3037300,
+      "tokens": 395019,
+      "usos_ferramenta": 410,
+      "achados": 37
+     }
+    ],
+    "defeitos_por_hora": 35.55789681625128,
+    "defeitos_por_mil_tokens": 0.0759457140036302
+   }
+  },
+  "C/3": {
+   "formato": "C",
+   "execucao": 3,
+   "achados": 27,
+   "achados_unificados": 20,
+   "defeitos": 17,
+   "falsos_positivos": 3,
+   "achados_em_defeitos": 23,
+   "achados_em_falsos_positivos": 4,
+   "severidade_ia_zero": 0,
+   "fora_do_escopo": 0,
+   "precisao_defeito": 0.85,
+   "precisao_achado": 0.8518518518518519,
+   "taxa_fp_defeito": 0.15000000000000002,
+   "taxa_fp_achado": 0.14814814814814814,
+   "recall": 0.20481927710843373,
+   "f1": 0.33009708737864074,
+   "duplicacao": {
+    "excedentes": {
+     "atribuicao_multipla": 6
+    },
+    "ampla": 6,
+    "taxas": {
+     "atribuicao_multipla": 0.2222222222222222
+    },
+    "taxa_ampla": 0.2222222222222222
+   },
+   "custo": {
+    "tokens_total": 331333,
+    "usos_ferramenta_total": 323,
+    "duracao_ms_soma": 2578545,
+    "duracao_ms_max": 2578545,
+    "duracao_total_s": 2771,
+    "duracao_avaliacao_s": 2659,
+    "modo_execucao": "chamada_unica",
+    "concorrencia_observada": "nao_aplicavel",
+    "chamadas": [
+     {
+      "chamada": "unica",
+      "duracao_ms": 2578545,
+      "tokens": 331333,
+      "usos_ferramenta": 323,
+      "achados": 27
+     }
+    ],
+    "defeitos_por_hora": 23.734315282455803,
+    "defeitos_por_mil_tokens": 0.05130789870009929
+   }
+  }
+ },
+ "por_formato": {
+  "A": {
+   "execucoes": [
+    1,
+    2,
+    3
+   ],
+   "achados": 227,
+   "achados_por_execucao": {
+    "valores": {
+     "1": 76,
+     "2": 77,
+     "3": 74
+    },
+    "media": 75.66666666666667,
+    "dp": 1.5275252316519468
+   },
+   "defeitos_uniao": 70,
+   "defeitos_por_execucao": {
+    "valores": {
+     "1": 55,
+     "2": 53,
+     "3": 55
+    },
+    "media": 54.333333333333336,
+    "dp": 1.1547005383792517
+   },
+   "achados_unificados_uniao": 78,
+   "achados_em_defeitos": 212,
+   "severidade_ia_zero": 0,
+   "fora_do_escopo": 0,
+   "precisao_defeito_uniao": 0.8974358974358975,
+   "precisao_defeito_por_execucao": {
+    "valores": {
+     "1": 0.9016393442622951,
+     "2": 0.9298245614035088,
+     "3": 0.9322033898305084
+    },
+    "media": 0.9212224318321041,
+    "dp": 0.017001108647567122
+   },
+   "precisao_achado_uniao": 0.933920704845815,
+   "precisao_achado_por_execucao": {
+    "valores": {
+     "1": 0.9078947368421053,
+     "2": 0.948051948051948,
+     "3": 0.9459459459459459
+    },
+    "media": 0.9339642102799998,
+    "dp": 0.022601369321667984
+   },
+   "recall_uniao": 0.8433734939759037,
+   "recall_por_execucao": {
+    "valores": {
+     "1": 0.6626506024096386,
+     "2": 0.6385542168674698,
+     "3": 0.6626506024096386
+    },
+    "media": 0.6546184738955824,
+    "dp": 0.013912054679268137
+   },
+   "f1_uniao": 0.8695652173913043,
+   "f1_por_execucao": {
+    "valores": {
+     "1": 0.7638888888888888,
+     "2": 0.757142857142857,
+     "3": 0.7746478873239436
+    },
+    "media": 0.7652265444518965,
+    "dp": 0.008828845463259757
+   },
+   "consistencia_entre_execucoes": {
+    "valores": {
+     "2": 0.8181818181818182,
+     "3": 0.8
+    },
+    "media": 0.8090909090909091,
+    "dp": 0.012856486930664504,
+    "denominador_D_F_1": 55
+   },
+   "duplicacao_ampla_por_execucao": {
+    "1": 14,
+    "2": 20,
+    "3": 15
+   },
+   "duplicacao_por_causa_soma": {
+    "atribuicao_multipla": 45,
+    "recorrencia_ou_intrinseca_indeterminada": 4
+   },
+   "indice_atribuicao_multipla": 0.2714285714285714,
+   "defeitos_com_duas_ou_mais_heuristicas": 19,
+   "heuristicas_por_defeito_media": 1.4142857142857144,
+   "distribuicao_heuristica": {
+    "H1": {
+     "achados": 29,
+     "defeitos": 13
+    },
+    "H2": {
+     "achados": 23,
+     "defeitos": 11
+    },
+    "H3": {
+     "achados": 16,
+     "defeitos": 7
+    },
+    "H4": {
+     "achados": 42,
+     "defeitos": 22
+    },
+    "H5": {
+     "achados": 23,
+     "defeitos": 9
+    },
+    "H6": {
+     "achados": 19,
+     "defeitos": 8
+    },
+    "H7": {
+     "achados": 20,
+     "defeitos": 8
+    },
+    "H8": {
+     "achados": 21,
+     "defeitos": 6
+    },
+    "H9": {
+     "achados": 19,
+     "defeitos": 7
+    },
+    "H10": {
+     "achados": 15,
+     "defeitos": 8
+    }
+   },
+   "severidade_ia_distribuicao": {
+    "1": 18,
+    "2": 107,
+    "3": 98,
+    "4": 4
+   },
+   "consistencia_severidade": {
+    "defeitos_em_mais_de_uma_execucao": 54,
+    "coincidem": 34,
+    "proporcao": 0.6296296296296297
+   },
+   "concordancia_ia_pesquisador": {
+    "defeitos": 70,
+    "exata": 0.6857142857142857,
+    "kappa_linear": 0.5599790466212677
+   },
+   "custo": {
+    "tokens_soma": 5097246,
+    "tokens_media": 1699082.0,
+    "tokens_dp": 131709.8049349402,
+    "duracao_ms_soma_total": 35677498,
+    "defeitos_por_hora_media": 17.30895629263547,
+    "defeitos_por_mil_tokens_media": 0.03212769427520691,
+    "defeitos_por_mil_tokens_dp": 0.002964885847992427
+   }
+  },
+  "B": {
+   "execucoes": [
+    1,
+    2,
+    3
+   ],
+   "achados": 159,
+   "achados_por_execucao": {
+    "valores": {
+     "1": 48,
+     "2": 58,
+     "3": 53
+    },
+    "media": 53.0,
+    "dp": 5.0
+   },
+   "defeitos_uniao": 54,
+   "defeitos_por_execucao": {
+    "valores": {
+     "1": 35,
+     "2": 39,
+     "3": 37
+    },
+    "media": 37.0,
+    "dp": 2.0
+   },
+   "achados_unificados_uniao": 61,
+   "achados_em_defeitos": 147,
+   "severidade_ia_zero": 0,
+   "fora_do_escopo": 0,
+   "precisao_defeito_uniao": 0.8852459016393442,
+   "precisao_defeito_por_execucao": {
+    "valores": {
+     "1": 0.9722222222222222,
+     "2": 0.9512195121951219,
+     "3": 0.8604651162790697
+    },
+    "media": 0.9279689502321379,
+    "dp": 0.05939574190035148
+   },
+   "precisao_achado_uniao": 0.9245283018867925,
+   "precisao_achado_por_execucao": {
+    "valores": {
+     "1": 0.9583333333333334,
+     "2": 0.9482758620689655,
+     "3": 0.8679245283018868
+    },
+    "media": 0.9248445745680619,
+    "dp": 0.049550044725166796
+   },
+   "recall_uniao": 0.6506024096385542,
+   "recall_por_execucao": {
+    "valores": {
+     "1": 0.42168674698795183,
+     "2": 0.46987951807228917,
+     "3": 0.4457831325301205
+    },
+    "media": 0.4457831325301205,
+    "dp": 0.02409638554216867
+   },
+   "f1_uniao": 0.75,
+   "f1_por_execucao": {
+    "valores": {
+     "1": 0.5882352941176471,
+     "2": 0.6290322580645161,
+     "3": 0.5873015873015873
+    },
+    "media": 0.6015230464945835,
+    "dp": 0.023828249893856557
+   },
+   "consistencia_entre_execucoes": {
+    "valores": {
+     "2": 0.6571428571428571,
+     "3": 0.8
+    },
+    "media": 0.7285714285714286,
+    "dp": 0.10101525445522111,
+    "denominador_D_F_1": 35
+   },
+   "duplicacao_ampla_por_execucao": {
+    "1": 11,
+    "2": 16,
+    "3": 9
+   },
+   "duplicacao_por_causa_soma": {
+    "atribuicao_multipla": 34,
+    "recorrencia_ou_intrinseca_indeterminada": 2
+   },
+   "indice_atribuicao_multipla": 0.3333333333333333,
+   "defeitos_com_duas_ou_mais_heuristicas": 18,
+   "heuristicas_por_defeito_media": 1.4814814814814814,
+   "distribuicao_heuristica": {
+    "H1": {
+     "achados": 20,
+     "defeitos": 14
+    },
+    "H2": {
+     "achados": 13,
+     "defeitos": 6
+    },
+    "H3": {
+     "achados": 12,
+     "defeitos": 6
+    },
+    "H4": {
+     "achados": 29,
+     "defeitos": 15
+    },
+    "H5": {
+     "achados": 21,
+     "defeitos": 8
+    },
+    "H6": {
+     "achados": 24,
+     "defeitos": 12
+    },
+    "H7": {
+     "achados": 18,
+     "defeitos": 8
+    },
+    "H8": {
+     "achados": 7,
+     "defeitos": 3
+    },
+    "H9": {
+     "achados": 6,
+     "defeitos": 4
+    },
+    "H10": {
+     "achados": 9,
+     "defeitos": 4
+    }
+   },
+   "severidade_ia_distribuicao": {
+    "1": 4,
+    "2": 67,
+    "3": 87,
+    "4": 1
+   },
+   "consistencia_severidade": {
+    "defeitos_em_mais_de_uma_execucao": 37,
+    "coincidem": 20,
+    "proporcao": 0.5405405405405406
+   },
+   "concordancia_ia_pesquisador": {
+    "defeitos": 54,
+    "exata": 0.5370370370370371,
+    "kappa_linear": 0.23636363636363644
+   },
+   "custo": {
+    "tokens_soma": 2848538,
+    "tokens_media": 949512.6666666666,
+    "tokens_dp": 138217.77513161371,
+    "duracao_ms_soma_total": 21605810,
+    "defeitos_por_hora_media": 20.327447478071416,
+    "defeitos_por_mil_tokens_media": 0.03939142661404246,
+    "defeitos_por_mil_tokens_dp": 0.004818277970774808
+   }
+  },
+  "C": {
+   "execucoes": [
+    1,
+    2,
+    3
+   ],
+   "achados": 90,
+   "achados_por_execucao": {
+    "valores": {
+     "1": 26,
+     "2": 37,
+     "3": 27
+    },
+    "media": 30.0,
+    "dp": 6.082762530298219
+   },
+   "defeitos_uniao": 40,
+   "defeitos_por_execucao": {
+    "valores": {
+     "1": 22,
+     "2": 30,
+     "3": 17
+    },
+    "media": 23.0,
+    "dp": 6.557438524302
+   },
+   "achados_unificados_uniao": 43,
+   "achados_em_defeitos": 83,
+   "severidade_ia_zero": 0,
+   "fora_do_escopo": 0,
+   "precisao_defeito_uniao": 0.9302325581395349,
+   "precisao_defeito_por_execucao": {
+    "valores": {
+     "1": 0.9565217391304348,
+     "2": 0.967741935483871,
+     "3": 0.85
+    },
+    "media": 0.9247545582047686,
+    "dp": 0.06498196812074115
+   },
+   "precisao_achado_uniao": 0.9222222222222223,
+   "precisao_achado_por_execucao": {
+    "valores": {
+     "1": 0.9230769230769231,
+     "2": 0.972972972972973,
+     "3": 0.8518518518518519
+    },
+    "media": 0.9159672493005827,
+    "dp": 0.06087275327528576
+   },
+   "recall_uniao": 0.4819277108433735,
+   "recall_por_execucao": {
+    "valores": {
+     "1": 0.26506024096385544,
+     "2": 0.3614457831325301,
+     "3": 0.20481927710843373
+    },
+    "media": 0.27710843373493976,
+    "dp": 0.07900528342532531
+   },
+   "f1_uniao": 0.6349206349206349,
+   "f1_por_execucao": {
+    "valores": {
+     "1": 0.41509433962264153,
+     "2": 0.5263157894736842,
+     "3": 0.33009708737864074
+    },
+    "media": 0.4238357388249889,
+    "dp": 0.09840098479170292
+   },
+   "consistencia_entre_execucoes": {
+    "valores": {
+     "2": 0.7272727272727273,
+     "3": 0.5454545454545454
+    },
+    "media": 0.6363636363636364,
+    "dp": 0.12856486930664504,
+    "denominador_D_F_1": 22
+   },
+   "duplicacao_ampla_por_execucao": {
+    "1": 2,
+    "2": 6,
+    "3": 6
+   },
+   "duplicacao_por_causa_soma": {
+    "atribuicao_multipla": 13,
+    "recorrencia_ou_intrinseca_indeterminada": 1
+   },
+   "indice_atribuicao_multipla": 0.225,
+   "defeitos_com_duas_ou_mais_heuristicas": 9,
+   "heuristicas_por_defeito_media": 1.25,
+   "distribuicao_heuristica": {
+    "H1": {
+     "achados": 23,
+     "defeitos": 12
+    },
+    "H2": {
+     "achados": 6,
+     "defeitos": 3
+    },
+    "H3": {
+     "achados": 6,
+     "defeitos": 4
+    },
+    "H4": {
+     "achados": 18,
+     "defeitos": 14
+    },
+    "H5": {
+     "achados": 12,
+     "defeitos": 5
+    },
+    "H6": {
+     "achados": 9,
+     "defeitos": 4
+    },
+    "H7": {
+     "achados": 3,
+     "defeitos": 1
+    },
+    "H8": {
+     "achados": 5,
+     "defeitos": 3
+    },
+    "H9": {
+     "achados": 5,
+     "defeitos": 3
+    },
+    "H10": {
+     "achados": 3,
+     "defeitos": 1
+    }
+   },
+   "severidade_ia_distribuicao": {
+    "1": 3,
+    "2": 35,
+    "3": 52
+   },
+   "consistencia_severidade": {
+    "defeitos_em_mais_de_uma_execucao": 17,
+    "coincidem": 12,
+    "proporcao": 0.7058823529411765
+   },
+   "concordancia_ia_pesquisador": {
+    "defeitos": 40,
+    "exata": 0.6,
+    "kappa_linear": 0.4158075601374571
+   },
+   "custo": {
+    "tokens_soma": 1014949,
+    "tokens_media": 338316.3333333333,
+    "tokens_dp": 53553.5781188646,
+    "duracao_ms_soma_total": 7519891,
+    "defeitos_por_hora_media": 33.62928193921345,
+    "defeitos_por_mil_tokens_media": 0.06782816045149259,
+    "defeitos_por_mil_tokens_dp": 0.01430767676962632
+   }
+  }
+ },
+ "sobreposicao": {
+  "exclusivos": {
+   "A": {
+    "n": 22,
+    "defeitos": [
+     "U019",
+     "U022",
+     "U030",
+     "U034",
+     "U047",
+     "U049",
+     "U051",
+     "U058",
+     "U062",
+     "U064",
+     "U072",
+     "U073",
+     "U074",
+     "U075",
+     "U077",
+     "U081",
+     "U082",
+     "U083",
+     "U084",
+     "U087",
+     "U088",
+     "U089"
+    ]
+   },
+   "B": {
+    "n": 8,
+    "defeitos": [
+     "U028",
+     "U042",
+     "U054",
+     "U059",
+     "U067",
+     "U071",
+     "U090",
+     "U091"
+    ]
+   },
+   "C": {
+    "n": 3,
+    "defeitos": [
+     "U070",
+     "U079",
+     "U093"
+    ]
+   }
+  },
+  "jaccard": {
+   "A∩B": {
+    "intersecao": 44,
+    "uniao": 80,
+    "jaccard": 0.55
+   },
+   "A∩C": {
+    "intersecao": 35,
+    "uniao": 75,
+    "jaccard": 0.4666666666666667
+   },
+   "B∩C": {
+    "intersecao": 33,
+    "uniao": 61,
+    "jaccard": 0.5409836065573771
+   }
+  },
+  "comuns_a_todos": 31,
+  "cobertura_por_defeito": {
+   "U002": "AB·",
+   "U003": "ABC",
+   "U004": "ABC",
+   "U005": "ABC",
+   "U006": "A·C",
+   "U007": "ABC",
+   "U008": "AB·",
+   "U010": "ABC",
+   "U011": "ABC",
+   "U012": "ABC",
+   "U013": "ABC",
+   "U014": "ABC",
+   "U015": "ABC",
+   "U016": "ABC",
+   "U017": "ABC",
+   "U018": "ABC",
+   "U019": "A··",
+   "U020": "AB·",
+   "U021": "AB·",
+   "U022": "A··",
+   "U023": "ABC",
+   "U024": "ABC",
+   "U025": "AB·",
+   "U026": "AB·",
+   "U027": "ABC",
+   "U028": "·B·",
+   "U029": "ABC",
+   "U030": "A··",
+   "U031": "ABC",
+   "U032": "ABC",
+   "U033": "A·C",
+   "U034": "A··",
+   "U035": "ABC",
+   "U036": "ABC",
+   "U039": "AB·",
+   "U040": "ABC",
+   "U041": "A·C",
+   "U042": "·B·",
+   "U043": "AB·",
+   "U044": "AB·",
+   "U045": "AB·",
+   "U046": "ABC",
+   "U047": "A··",
+   "U048": "ABC",
+   "U049": "A··",
+   "U050": "ABC",
+   "U051": "A··",
+   "U053": "ABC",
+   "U054": "·B·",
+   "U055": "ABC",
+   "U056": "ABC",
+   "U057": "ABC",
+   "U058": "A··",
+   "U059": "·B·",
+   "U060": "ABC",
+   "U061": "AB·",
+   "U062": "A··",
+   "U063": "ABC",
+   "U064": "A··",
+   "U065": "AB·",
+   "U067": "·B·",
+   "U068": "A·C",
+   "U069": "AB·",
+   "U070": "··C",
+   "U071": "·B·",
+   "U072": "A··",
+   "U073": "A··",
+   "U074": "A··",
+   "U075": "A··",
+   "U077": "A··",
+   "U079": "··C",
+   "U081": "A··",
+   "U082": "A··",
+   "U083": "A··",
+   "U084": "A··",
+   "U085": "·BC",
+   "U086": "·BC",
+   "U087": "A··",
+   "U088": "A··",
+   "U089": "A··",
+   "U090": "·B·",
+   "U091": "·B·",
+   "U093": "··C"
+  }
+ },
+ "severidade": {
+  "concordancia_ia_pesquisador_agregado": {
+   "defeitos": 83,
+   "exata": 0.6746987951807228,
+   "kappa_linear": 0.5503456005977956,
+   "distribuicao_diferenca": {
+    "0": 56,
+    "1": 5,
+    "2": 1,
+    "-1": 20,
+    "-2": 1
+   }
+  },
+  "severidade_pesquisador_distribuicao": {
+   "4": 6,
+   "2": 35,
+   "3": 33,
+   "1": 9
+  },
+  "nota": "moda da severidade_ia por defeito, empate resolvido pelo menor valor; kappa ponderado, categorias 0 a 4"
+ },
+ "conferencias": [
+  {
+   "execucao": "A/1",
+   "achados_trilha": 76,
+   "achados_encerramento_menos_fora": 76,
+   "bate": true
+  },
+  {
+   "execucao": "A/2",
+   "achados_trilha": 77,
+   "achados_encerramento_menos_fora": 77,
+   "bate": true
+  },
+  {
+   "execucao": "A/3",
+   "achados_trilha": 74,
+   "achados_encerramento_menos_fora": 74,
+   "bate": true
+  },
+  {
+   "execucao": "B/1",
+   "achados_trilha": 48,
+   "achados_encerramento_menos_fora": 48,
+   "bate": true
+  },
+  {
+   "execucao": "B/2",
+   "achados_trilha": 58,
+   "achados_encerramento_menos_fora": 58,
+   "bate": true
+  },
+  {
+   "execucao": "B/3",
+   "achados_trilha": 53,
+   "achados_encerramento_menos_fora": 53,
+   "bate": true
+  },
+  {
+   "execucao": "C/1",
+   "achados_trilha": 26,
+   "achados_encerramento_menos_fora": 26,
+   "bate": true
+  },
+  {
+   "execucao": "C/2",
+   "achados_trilha": 37,
+   "achados_encerramento_menos_fora": 37,
+   "bate": true
+  },
+  {
+   "execucao": "C/3",
+   "achados_trilha": 27,
+   "achados_encerramento_menos_fora": 27,
+   "bate": true
+  }
+ ],
+ "fora_do_escopo_por_formato": {
+  "A": 0,
+  "B": 0,
+  "C": 0
+ },
+ "achados_unificados": {
+  "U001": {
+   "classificacao": "falso_positivo",
+   "severidade_pesquisador": null,
+   "n_achados": 13,
+   "achados": [
+    "A-H5-001/e1",
+    "A-H5-001/e2",
+    "A-H5-001/e3",
+    "A-H9-003/e1",
+    "B-G1-008/e1",
+    "B-G1-008/e3",
+    "B-G1-009/e1",
+    "B-G1-011/e2",
+    "C-H5-001/e3",
+    "C-H5-003/e1",
+    "C-H5-003/e2",
+    "C-H9-001/e1",
+    "C-H9-002/e3"
+   ],
+   "heuristicas": [
+    "H5",
+    "H9"
+   ],
+   "elemento": "Formulário de tarefa (modais Nova tarefa e Editar tarefa) — campo Título e botão primário Criar/Salvar",
+   "pontos_manifestacao": [
+    "Modal Nova tarefa com o formulário em branco",
+    "Modal Editar tarefa com o Título esvaziado",
+    "Agenda e visualização Lista, registros \"(sem título)\""
+   ]
+  },
+  "U002": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 2,
+   "n_achados": 8,
+   "achados": [
+    "A-H7-001/e2",
+    "A-H7-002/e1",
+    "A-H7-002/e3",
+    "A-H7-003/e1",
+    "A-H7-003/e3",
+    "B-G3-004/e1",
+    "B-G3-007/e2",
+    "B-G3-007/e3"
+   ],
+   "heuristicas": [
+    "H7"
+   ],
+   "elemento": "Campos de texto e botões primários dos modais de tarefa e do painel Busca avançada",
+   "pontos_manifestacao": [
+    "Modal Nova tarefa, botão Criar",
+    "Modal Editar tarefa, botão Salvar",
+    "Painel Busca avançada, botão Pesquisar"
+   ]
+  },
+  "U003": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 2,
+   "n_achados": 9,
+   "achados": [
+    "A-H10-002/e1",
+    "A-H10-002/e3",
+    "A-H10-003/e2",
+    "B-G1-013/e1",
+    "B-G1-017/e2",
+    "B-G4-008/e1",
+    "B-G4-010/e2",
+    "B-G4-010/e3",
+    "C-H9-001/e3"
+   ],
+   "heuristicas": [
+    "H9",
+    "H10"
+   ],
+   "elemento": "Área de resultados da visualização Lista — mensagem de estado vazio",
+   "pontos_manifestacao": [
+    "Lista após pesquisa sem correspondência",
+    "Lista com filtros de status, marcador ou usuário ativos"
+   ]
+  },
+  "U004": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 2,
+   "n_achados": 23,
+   "achados": [
+    "A-H1-005/e2",
+    "A-H10-003/e3",
+    "A-H2-001/e2",
+    "A-H2-003/e1",
+    "A-H4-015/e2",
+    "A-H5-004/e3",
+    "A-H5-005/e1",
+    "A-H5-007/e2",
+    "A-H6-001/e1",
+    "A-H6-001/e2",
+    "A-H6-002/e3",
+    "A-H8-005/e2",
+    "A-H8-006/e3",
+    "B-G1-010/e3",
+    "B-G2-001/e2",
+    "B-G2-001/e3",
+    "B-G2-002/e1",
+    "B-G4-002/e1",
+    "B-G4-004/e2",
+    "B-G4-004/e3",
+    "C-H6-001/e1",
+    "C-H6-001/e2",
+    "C-H6-001/e3"
+   ],
+   "heuristicas": [
+    "H1",
+    "H2",
+    "H4",
+    "H5",
+    "H6",
+    "H8",
+    "H10"
+   ],
+   "elemento": "Linha dos campos Duração e Repetir a cada do modal de tarefa — seletores de unidade",
+   "pontos_manifestacao": [
+    "Modal Nova tarefa",
+    "Modal Editar tarefa em edição",
+    "Modal de detalhes em modo de leitura"
+   ]
+  },
+  "U005": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 1,
+   "n_achados": 6,
+   "achados": [
+    "A-H4-003/e2",
+    "A-H7-006/e3",
+    "A-H7-007/e1",
+    "B-G2-010/e3",
+    "B-G3-008/e2",
+    "C-H4-006/e2"
+   ],
+   "heuristicas": [
+    "H4",
+    "H7"
+   ],
+   "elemento": "Cartão de tarefa da grade da agenda e linha da visualização Lista, como alvo de interação",
+   "pontos_manifestacao": [
+    "Agenda, visualizações Dia, Semana e Mês",
+    "Visualização Lista, linha da tabela"
+   ]
+  },
+  "U006": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 2,
+   "n_achados": 8,
+   "achados": [
+    "A-H3-001/e2",
+    "A-H3-003/e1",
+    "A-H3-004/e3",
+    "A-H4-006/e1",
+    "A-H4-007/e2",
+    "C-H3-002/e3",
+    "C-H4-003/e2",
+    "C-H4-005/e1"
+   ],
+   "heuristicas": [
+    "H3",
+    "H4"
+   ],
+   "elemento": "Diálogos modais Nova tarefa e Editar tarefa — tratamento da tecla Esc",
+   "pontos_manifestacao": [
+    "Modal Nova tarefa",
+    "Modal Editar tarefa, em leitura e em edição",
+    "Listas suspensas abertas dentro dos modais"
+   ]
+  },
+  "U007": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 2,
+   "n_achados": 6,
+   "achados": [
+    "A-H6-007/e3",
+    "B-G1-002/e3",
+    "B-G1-007/e2",
+    "C-H1-004/e1",
+    "C-H1-005/e3",
+    "C-H1-010/e2"
+   ],
+   "heuristicas": [
+    "H1",
+    "H6"
+   ],
+   "elemento": "Cabeçalho e corpo do modal de detalhes — indicação de status",
+   "pontos_manifestacao": [
+    "Modal de tarefa aberta",
+    "Modal de tarefa finalizada, pelo filtro Finalizadas"
+   ]
+  },
+  "U008": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 2,
+   "n_achados": 5,
+   "achados": [
+    "A-H7-003/e2",
+    "A-H7-004/e1",
+    "A-H7-005/e3",
+    "B-G3-007/e1",
+    "B-G3-010/e3"
+   ],
+   "heuristicas": [
+    "H7"
+   ],
+   "elemento": "Tabela da visualização Lista — cabeçalhos de coluna e linhas",
+   "pontos_manifestacao": [
+    "Cabeçalhos Título, Cliente, Contatos, Quando, Tipo e Descrição",
+    "Coluna de status das linhas"
+   ]
+  },
+  "U009": {
+   "classificacao": "falso_positivo",
+   "severidade_pesquisador": null,
+   "n_achados": 2,
+   "achados": [
+    "A-H7-005/e1",
+    "B-G3-008/e3"
+   ],
+   "heuristicas": [
+    "H7"
+   ],
+   "elemento": "Bloco de tarefa na grade da agenda — gestos de mover e redimensionar",
+   "pontos_manifestacao": [
+    "Agenda, visualização Semana",
+    "Agenda, visualizações Dia e Mês"
+   ]
+  },
+  "U010": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 2,
+   "n_achados": 13,
+   "achados": [
+    "A-H2-001/e3",
+    "A-H2-002/e2",
+    "A-H2-004/e1",
+    "A-H4-004/e1",
+    "A-H4-007/e3",
+    "A-H4-011/e2",
+    "B-G2-003/e2",
+    "B-G2-003/e3",
+    "B-G2-005/e1",
+    "B-G2-007/e1",
+    "B-G2-012/e2",
+    "B-G2-012/e3",
+    "C-H4-002/e3"
+   ],
+   "heuristicas": [
+    "H2",
+    "H4"
+   ],
+   "elemento": "Rótulo e texto de apoio do campo de responsáveis, no modal, na Busca avançada e no painel lateral",
+   "pontos_manifestacao": [
+    "Modais de tarefa, campo \"Usuários\"",
+    "Busca avançada, campo \"Responsáveis\"",
+    "Painel lateral, filtro \"Exibir tarefas de…\""
+   ]
+  },
+  "U011": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 1,
+   "n_achados": 10,
+   "achados": [
+    "A-H2-008/e2",
+    "A-H2-009/e1",
+    "A-H4-002/e2",
+    "A-H4-002/e3",
+    "A-H4-009/e1",
+    "B-G2-008/e2",
+    "B-G2-009/e3",
+    "B-G2-011/e1",
+    "C-H4-004/e1",
+    "C-H4-004/e2"
+   ],
+   "heuristicas": [
+    "H2",
+    "H4"
+   ],
+   "elemento": "Controle circular de conclusão dos cartões da agenda e das linhas da Lista — papel e forma do widget",
+   "pontos_manifestacao": [
+    "Cartões nas visualizações Dia, Semana e Mês",
+    "Coluna de status da visualização Lista"
+   ]
+  },
+  "U012": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 3,
+   "n_achados": 12,
+   "achados": [
+    "A-H3-002/e2",
+    "A-H3-005/e1",
+    "A-H5-002/e1",
+    "A-H5-003/e2",
+    "A-H5-003/e3",
+    "B-G1-011/e3",
+    "B-G1-012/e1",
+    "B-G1-015/e2",
+    "B-G3-001/e2",
+    "B-G3-002/e1",
+    "C-H5-001/e1",
+    "C-H5-006/e2"
+   ],
+   "heuristicas": [
+    "H3",
+    "H5"
+   ],
+   "elemento": "Vias de fechamento do modal de tarefa — botão ×, Cancelar/Fechar e sobreposição escurecida",
+   "pontos_manifestacao": [
+    "Modal Nova tarefa preenchido",
+    "Modal Editar tarefa com alterações pendentes"
+   ]
+  },
+  "U013": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 3,
+   "n_achados": 9,
+   "achados": [
+    "A-H10-001/e1",
+    "A-H10-001/e2",
+    "A-H10-001/e3",
+    "B-G4-009/e1",
+    "B-G4-009/e3",
+    "B-G4-011/e2",
+    "C-H10-001/e1",
+    "C-H10-001/e2",
+    "C-H10-001/e3"
+   ],
+   "heuristicas": [
+    "H10"
+   ],
+   "elemento": "Aplicação inteira — ponto de entrada para ajuda na barra superior, no painel lateral e nos modais",
+   "pontos_manifestacao": [
+    "Barra superior da tela de Tarefas",
+    "Painel lateral de filtros",
+    "Modais Nova tarefa e Editar tarefa"
+   ]
+  },
+  "U014": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 2,
+   "n_achados": 13,
+   "achados": [
+    "A-H1-003/e2",
+    "A-H1-006/e1",
+    "A-H2-006/e1",
+    "A-H2-006/e2",
+    "A-H4-005/e1",
+    "A-H4-005/e3",
+    "A-H4-006/e2",
+    "B-G2-001/e1",
+    "B-G2-002/e2",
+    "B-G2-002/e3",
+    "B-G4-005/e1",
+    "C-H2-001/e1",
+    "C-H2-001/e2"
+   ],
+   "heuristicas": [
+    "H1",
+    "H2",
+    "H4",
+    "H6"
+   ],
+   "elemento": "Cabeçalho do modal de tarefa — título do diálogo e botão de lápis",
+   "pontos_manifestacao": [
+    "Modal de detalhes em modo de leitura",
+    "Mesmo modal depois de acionado o lápis"
+   ]
+  },
+  "U015": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 1,
+   "n_achados": 8,
+   "achados": [
+    "A-H2-008/e1",
+    "A-H4-001/e2",
+    "A-H4-010/e1",
+    "A-H4-011/e3",
+    "B-G2-008/e3",
+    "B-G2-009/e1",
+    "B-G2-009/e2",
+    "C-H4-007/e2"
+   ],
+   "heuristicas": [
+    "H2",
+    "H4"
+   ],
+   "elemento": "Rótulo de período da barra superior, cabeçalho do calendário lateral e coluna \"Quando\" da Lista",
+   "pontos_manifestacao": [
+    "Barra superior nas visualizações Dia, Semana e Mês",
+    "Cabeçalho do mini calendário",
+    "Coluna \"Quando\" da Lista"
+   ]
+  },
+  "U016": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 3,
+   "n_achados": 21,
+   "achados": [
+    "A-H1-002/e2",
+    "A-H1-003/e1",
+    "A-H1-008/e3",
+    "A-H3-006/e3",
+    "A-H6-001/e3",
+    "A-H6-002/e1",
+    "A-H6-002/e2",
+    "B-G1-001/e1",
+    "B-G2-013/e3",
+    "B-G3-004/e2",
+    "B-G3-004/e3",
+    "B-G4-002/e3",
+    "B-G4-003/e2",
+    "B-G4-007/e1",
+    "C-H1-004/e3",
+    "C-H1-005/e2",
+    "C-H1-006/e1",
+    "C-H1-006/e2",
+    "C-H4-003/e3",
+    "C-H6-002/e3",
+    "C-H6-003/e2"
+   ],
+   "heuristicas": [
+    "H1",
+    "H3",
+    "H4",
+    "H6"
+   ],
+   "elemento": "Filtros do painel lateral (Exibir tarefas de…, Marcadores, Tipo de tarefa) e sua representação na barra superior",
+   "pontos_manifestacao": [
+    "Painel recolhido com filtros ativos",
+    "Barra \"Filtros:\" alimentada apenas pela Busca avançada",
+    "Agenda e Lista exibindo conjunto parcial sem explicação"
+   ]
+  },
+  "U017": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 2,
+   "n_achados": 9,
+   "achados": [
+    "A-H7-001/e1",
+    "A-H7-001/e3",
+    "A-H7-004/e2",
+    "B-G3-006/e2",
+    "B-G3-006/e3",
+    "B-G3-008/e1",
+    "C-H7-001/e1",
+    "C-H7-001/e2",
+    "C-H7-001/e3"
+   ],
+   "heuristicas": [
+    "H7"
+   ],
+   "elemento": "Barra superior de comandos e botão Criar tarefa — aceleradores de teclado em nível de aplicação",
+   "pontos_manifestacao": [
+    "Barra superior (Hoje, Anterior, Próximo, Modo de visualização, Calendário/Lista)",
+    "Botão Criar tarefa do painel lateral",
+    "Campo de pesquisa da barra superior"
+   ]
+  },
+  "U018": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 3,
+   "n_achados": 7,
+   "achados": [
+    "A-H10-002/e2",
+    "A-H2-005/e3",
+    "A-H9-002/e3",
+    "A-H9-003/e2",
+    "A-H9-004/e1",
+    "B-G1-018/e2",
+    "C-H9-001/e2"
+   ],
+   "heuristicas": [
+    "H2",
+    "H9",
+    "H10"
+   ],
+   "elemento": "Faixa \"Falha ao carregar\" no topo da área de conteúdo",
+   "pontos_manifestacao": [
+    "Agenda, visualização Semana, após navegar de período",
+    "Visualização Lista durante falha de carregamento"
+   ]
+  },
+  "U019": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 2,
+   "n_achados": 3,
+   "achados": [
+    "A-H2-001/e1",
+    "A-H2-002/e3",
+    "A-H2-004/e2"
+   ],
+   "heuristicas": [
+    "H2"
+   ],
+   "elemento": "Valores do campo Tipo de tarefa e etiquetas correspondentes nos cartões e na Lista",
+   "pontos_manifestacao": [
+    "Filtro \"Tipo de tarefa\" do painel lateral",
+    "Seletor \"Tipo\" do modal",
+    "Etiqueta do cartão e coluna Tipo da Lista"
+   ]
+  },
+  "U020": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 2,
+   "n_achados": 6,
+   "achados": [
+    "A-H6-003/e3",
+    "A-H6-004/e1",
+    "A-H6-004/e2",
+    "B-G4-001/e2",
+    "B-G4-006/e1",
+    "B-G4-007/e3"
+   ],
+   "heuristicas": [
+    "H6"
+   ],
+   "elemento": "Itens de tarefa dentro das células dos dias na visualização Mês",
+   "pontos_manifestacao": [
+    "Visualização Mês, células dos dias",
+    "Dica ao pairar sobre o item"
+   ]
+  },
+  "U021": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 3,
+   "n_achados": 5,
+   "achados": [
+    "A-H9-001/e3",
+    "A-H9-002/e1",
+    "A-H9-002/e2",
+    "A-H9-005/e3",
+    "B-G1-006/e3"
+   ],
+   "heuristicas": [
+    "H1",
+    "H9"
+   ],
+   "elemento": "Área de mensagem de erro do modal, em relação ao rodapé fixo com o botão primário",
+   "pontos_manifestacao": [
+    "Modal Nova tarefa após acionar Criar com campo inválido",
+    "Modal Editar tarefa após acionar Salvar com campo inválido"
+   ]
+  },
+  "U022": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 1,
+   "n_achados": 2,
+   "achados": [
+    "A-H2-007/e1",
+    "A-H4-010/e2"
+   ],
+   "heuristicas": [
+    "H2",
+    "H4"
+   ],
+   "elemento": "Eixo de horas à esquerda da grade nas visualizações Dia e Semana",
+   "pontos_manifestacao": [
+    "Visualização Semana, coluna de horas",
+    "Visualização Dia, coluna de horas"
+   ]
+  },
+  "U023": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 3,
+   "n_achados": 5,
+   "achados": [
+    "A-H9-003/e3",
+    "A-H9-005/e2",
+    "A-H9-006/e1",
+    "B-G1-019/e2",
+    "C-H9-002/e2"
+   ],
+   "heuristicas": [
+    "H9"
+   ],
+   "elemento": "Diálogo nativo do navegador disparado pelo controle de conclusão",
+   "pontos_manifestacao": [
+    "Agenda, visualização Semana, controle do cartão",
+    "Visualização Lista, controle da linha"
+   ]
+  },
+  "U024": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 3,
+   "n_achados": 7,
+   "achados": [
+    "A-H8-002/e1",
+    "A-H8-003/e3",
+    "A-H8-004/e2",
+    "B-G2-011/e2",
+    "B-G2-016/e2",
+    "B-G2-018/e3",
+    "C-H4-006/e1"
+   ],
+   "heuristicas": [
+    "H4",
+    "H8"
+   ],
+   "elemento": "Coluna \"Contatos\" da tabela da visualização Lista",
+   "pontos_manifestacao": [
+    "Lista, todas as linhas do período exibido",
+    "Modal de detalhes da mesma tarefa, campo Contatos preenchido"
+   ]
+  },
+  "U025": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 2,
+   "n_achados": 5,
+   "achados": [
+    "A-H2-002/e1",
+    "A-H2-006/e3",
+    "A-H2-007/e2",
+    "B-G2-003/e1",
+    "B-G2-004/e3"
+   ],
+   "heuristicas": [
+    "H2"
+   ],
+   "elemento": "Valor padrão do seletor Tipo e rótulo de título ausente",
+   "pontos_manifestacao": [
+    "Modal Nova tarefa, campo Tipo",
+    "Lista e cartões da agenda, rótulo de título"
+   ]
+  },
+  "U026": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 3,
+   "n_achados": 4,
+   "achados": [
+    "A-H9-001/e1",
+    "A-H9-001/e2",
+    "B-G1-014/e1",
+    "B-G1-014/e3"
+   ],
+   "heuristicas": [
+    "H9"
+   ],
+   "elemento": "Mensagem de erro do modal de tarefa associada ao campo Data",
+   "pontos_manifestacao": [
+    "Modal Nova tarefa com a Data em branco",
+    "Modal Nova tarefa com a data incompleta"
+   ]
+  },
+  "U027": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 4,
+   "n_achados": 15,
+   "achados": [
+    "A-H1-005/e3",
+    "A-H1-008/e2",
+    "A-H4-004/e3",
+    "A-H4-005/e2",
+    "A-H4-007/e1",
+    "A-H5-004/e1",
+    "A-H5-008/e2",
+    "B-G1-003/e1",
+    "B-G1-007/e1",
+    "B-G1-008/e2",
+    "B-G2-006/e1",
+    "B-G2-006/e2",
+    "C-H4-001/e1",
+    "C-H5-001/e2",
+    "C-H5-002/e1"
+   ],
+   "heuristicas": [
+    "H1",
+    "H4",
+    "H5"
+   ],
+   "elemento": "Chips dos campos relacionais e seus botões \"×\" no modal em modo de leitura",
+   "pontos_manifestacao": [
+    "Modal de detalhes aberto pelo cartão da agenda",
+    "Modal de detalhes aberto pela visualização Lista"
+   ]
+  },
+  "U028": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 3,
+   "n_achados": 1,
+   "achados": [
+    "B-G1-013/e3"
+   ],
+   "heuristicas": [
+    "H5"
+   ],
+   "elemento": "Campo Data do modal Nova tarefa e botão Criar",
+   "pontos_manifestacao": [
+    "Modal Nova tarefa, campo Data esvaziado"
+   ]
+  },
+  "U029": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 3,
+   "n_achados": 5,
+   "achados": [
+    "A-H1-004/e2",
+    "A-H1-005/e1",
+    "A-H1-009/e3",
+    "B-G1-003/e2",
+    "C-H1-005/e1"
+   ],
+   "heuristicas": [
+    "H1"
+   ],
+   "elemento": "Estado das tarefas compartilhado entre Calendário, Lista e filtros de status",
+   "pontos_manifestacao": [
+    "Conclusão na Lista conferida no Calendário",
+    "Filtro \"Finalizadas\" após concluir",
+    "Reagendamento por arraste após alternar visualizações"
+   ]
+  },
+  "U030": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 2,
+   "n_achados": 2,
+   "achados": [
+    "A-H1-007/e2",
+    "A-H1-007/e3"
+   ],
+   "heuristicas": [
+    "H1"
+   ],
+   "elemento": "Cartão fantasma de pré-visualização do arraste na grade",
+   "pontos_manifestacao": [
+    "Visualização Semana, durante o arraste para outro dia/horário"
+   ]
+  },
+  "U031": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 3,
+   "n_achados": 15,
+   "achados": [
+    "A-H6-003/e2",
+    "A-H6-006/e1",
+    "A-H6-006/e3",
+    "A-H8-001/e2",
+    "A-H8-004/e3",
+    "A-H8-005/e1",
+    "B-G2-014/e1",
+    "B-G2-015/e2",
+    "B-G2-016/e3",
+    "B-G4-006/e2",
+    "C-H6-002/e1",
+    "C-H6-003/e3",
+    "C-H6-004/e2",
+    "C-H8-001/e3",
+    "C-H8-002/e1"
+   ],
+   "heuristicas": [
+    "H6",
+    "H8"
+   ],
+   "elemento": "Cartão de tarefa da grade nas visualizações Dia e Semana — selo de tipo, título e linha de horário",
+   "pontos_manifestacao": [
+    "Cartões de tarefas de 30 minutos",
+    "Cartões sobrepostos no mesmo horário",
+    "Visualização Dia, cartões da grade"
+   ]
+  },
+  "U032": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 2,
+   "n_achados": 6,
+   "achados": [
+    "A-H8-002/e2",
+    "A-H8-003/e1",
+    "A-H8-007/e3",
+    "B-G2-015/e1",
+    "C-H8-001/e2",
+    "C-H8-002/e3"
+   ],
+   "heuristicas": [
+    "H8"
+   ],
+   "elemento": "Corpo do modal de detalhes em modo de leitura",
+   "pontos_manifestacao": [
+    "Modal aberto pelo cartão da agenda",
+    "Modal aberto pela visualização Lista"
+   ]
+  },
+  "U033": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 3,
+   "n_achados": 3,
+   "achados": [
+    "A-H1-003/e3",
+    "A-H1-007/e1",
+    "C-H1-007/e2"
+   ],
+   "heuristicas": [
+    "H1"
+   ],
+   "elemento": "Pontos indicadores sob os números dos dias no mini calendário",
+   "pontos_manifestacao": [
+    "Filtro de status \"Finalizadas\" ativo",
+    "Pesquisa sem correspondência ativa",
+    "Filtro de marcador ou busca avançada ativo"
+   ]
+  },
+  "U034": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 3,
+   "n_achados": 3,
+   "achados": [
+    "A-H5-005/e3",
+    "A-H5-006/e1",
+    "A-H5-006/e2"
+   ],
+   "heuristicas": [
+    "H5"
+   ],
+   "elemento": "Campo numérico \"Duração\" do modal de tarefa",
+   "pontos_manifestacao": [
+    "Modal Nova tarefa, campo Duração",
+    "Agenda, cartão com duração truncada ou colapsada"
+   ]
+  },
+  "U035": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 2,
+   "n_achados": 6,
+   "achados": [
+    "A-H4-003/e3",
+    "A-H4-012/e2",
+    "B-G2-005/e2",
+    "B-G2-005/e3",
+    "B-G2-013/e1",
+    "C-H4-002/e2"
+   ],
+   "heuristicas": [
+    "H4"
+   ],
+   "elemento": "Rótulos das ações de limpeza na barra de pesquisa, na barra de filtros e no painel de Busca avançada",
+   "pontos_manifestacao": [
+    "Botão × do campo de pesquisa",
+    "Rodapé do painel Busca avançada",
+    "Barra \"Filtros:\" de filtros aplicados"
+   ]
+  },
+  "U036": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 3,
+   "n_achados": 20,
+   "achados": [
+    "A-H3-001/e1",
+    "A-H3-001/e3",
+    "A-H3-002/e3",
+    "A-H3-003/e2",
+    "A-H5-002/e3",
+    "A-H5-003/e1",
+    "A-H5-004/e2",
+    "B-G1-009/e2",
+    "B-G1-009/e3",
+    "B-G1-010/e1",
+    "B-G1-011/e1",
+    "B-G3-001/e1",
+    "B-G3-001/e3",
+    "B-G3-002/e2",
+    "C-H3-001/e1",
+    "C-H3-001/e3",
+    "C-H3-002/e2",
+    "C-H5-002/e3",
+    "C-H5-003/e3",
+    "C-H5-004/e2"
+   ],
+   "heuristicas": [
+    "H3",
+    "H5"
+   ],
+   "elemento": "Controle de conclusão no cartão da agenda, na linha da Lista e no rodapé do modal — irreversibilidade e tamanho do alvo",
+   "pontos_manifestacao": [
+    "Cartão da tarefa na visualização Semana",
+    "Linha da Lista, coluna de status",
+    "Modal da tarefa finalizada, rodapé apenas com Fechar"
+   ]
+  },
+  "U037": {
+   "classificacao": "falso_positivo",
+   "severidade_pesquisador": null,
+   "n_achados": 4,
+   "achados": [
+    "A-H4-008/e2",
+    "B-G1-012/e2",
+    "B-G1-013/e2",
+    "C-H4-005/e3"
+   ],
+   "heuristicas": [
+    "H4",
+    "H5"
+   ],
+   "elemento": "Listas suspensas e de sugestão dos campos do modal — comportamento de fechamento",
+   "pontos_manifestacao": [
+    "Lista do campo Tipo sobre Duração, Repetir e Cliente",
+    "Lista do campo Cliente sobre o campo Oportunidade",
+    "Lista do campo Usuários sobre Contatos, Marcadores, Endereço e Lembrete"
+   ]
+  },
+  "U038": {
+   "classificacao": "falso_positivo",
+   "severidade_pesquisador": null,
+   "n_achados": 2,
+   "achados": [
+    "A-H4-003/e1",
+    "C-H4-004/e3"
+   ],
+   "heuristicas": [
+    "H4"
+   ],
+   "elemento": "Campos de busca dos filtros do painel lateral (Marcadores e Tipo de tarefa)",
+   "pontos_manifestacao": [
+    "Campo \"Pesquisar marcadores\"",
+    "Campo \"Todos os tipos\"",
+    "Campo Marcadores do modal de tarefa"
+   ]
+  },
+  "U039": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 4,
+   "n_achados": 2,
+   "achados": [
+    "A-H10-005/e1",
+    "B-G4-010/e1"
+   ],
+   "heuristicas": [
+    "H10"
+   ],
+   "elemento": "Bloco \"Repetir\" e campo \"Lembrete por e-mail\" — ajuda em contexto",
+   "pontos_manifestacao": [
+    "Modal Nova tarefa, bloco Repetir",
+    "Modal Nova tarefa, campo Lembrete por e-mail"
+   ]
+  },
+  "U040": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 3,
+   "n_achados": 11,
+   "achados": [
+    "A-H1-001/e1",
+    "A-H1-002/e3",
+    "A-H4-013/e2",
+    "A-H4-013/e3",
+    "B-G1-002/e1",
+    "B-G1-003/e3",
+    "B-G2-014/e3",
+    "C-H1-002/e1",
+    "C-H1-003/e2",
+    "C-H1-003/e3",
+    "C-H4-001/e2"
+   ],
+   "heuristicas": [
+    "H1",
+    "H4"
+   ],
+   "elemento": "Área da grade nas visualizações Dia, Semana e Mês — estado sem resultados",
+   "pontos_manifestacao": [
+    "Semana após pesquisa sem correspondência",
+    "Mês com filtro de marcador sem resultado",
+    "Dia com o mesmo termo pesquisado"
+   ]
+  },
+  "U041": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 2,
+   "n_achados": 3,
+   "achados": [
+    "A-H8-002/e3",
+    "A-H8-006/e1",
+    "C-H8-001/e1"
+   ],
+   "heuristicas": [
+    "H8"
+   ],
+   "elemento": "Colunas \"Título\" e \"Cliente\" da Lista e rótulo dos cartões da agenda",
+   "pontos_manifestacao": [
+    "Visualização Lista, todas as linhas",
+    "Cartões das visualizações Semana e Mês",
+    "Campo Título do modal de detalhes"
+   ]
+  },
+  "U042": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 3,
+   "n_achados": 1,
+   "achados": [
+    "B-G2-013/e2"
+   ],
+   "heuristicas": [
+    "H4"
+   ],
+   "elemento": "Campo \"Pesquisar tarefas…\" da barra superior no estado desabilitado",
+   "pontos_manifestacao": [
+    "Barra superior com filtros da Busca avançada aplicados"
+   ]
+  },
+  "U043": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 2,
+   "n_achados": 8,
+   "achados": [
+    "A-H10-005/e2",
+    "A-H10-005/e3",
+    "A-H6-005/e1",
+    "A-H6-005/e2",
+    "B-G4-003/e3",
+    "B-G4-007/e2",
+    "B-G4-008/e2",
+    "B-G4-012/e2"
+   ],
+   "heuristicas": [
+    "H6",
+    "H10"
+   ],
+   "elemento": "Botões somente-ícone da barra superior, do painel lateral e do cabeçalho do modal, e o círculo de conclusão",
+   "pontos_manifestacao": [
+    "Recolher painel, Anterior, Próximo, Busca avançada, alternador Calendário/Lista",
+    "Ícone de lápis do modal de detalhes",
+    "Círculo de conclusão nos cartões e na coluna de status da Lista"
+   ]
+  },
+  "U044": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 2,
+   "n_achados": 3,
+   "achados": [
+    "A-H4-010/e3",
+    "B-G2-014/e2",
+    "B-G2-015/e3"
+   ],
+   "heuristicas": [
+    "H4"
+   ],
+   "elemento": "Léxico do estado da tarefa — filtro de status, comando de conclusão e estado do controle",
+   "pontos_manifestacao": [
+    "Filtro \"Status das tarefas\"",
+    "Botão de conclusão do modal e dos cartões",
+    "Coluna de status da Lista"
+   ]
+  },
+  "U045": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 2,
+   "n_achados": 3,
+   "achados": [
+    "A-H4-011/e1",
+    "B-G2-011/e3",
+    "B-G2-012/e1"
+   ],
+   "heuristicas": [
+    "H4"
+   ],
+   "elemento": "Seletor \"Modo de visualização\" e par de botões-ícone Calendário/Lista",
+   "pontos_manifestacao": [
+    "Barra superior com a visualização Calendário ativa",
+    "Barra superior com a visualização Lista ativa"
+   ]
+  },
+  "U046": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 4,
+   "n_achados": 6,
+   "achados": [
+    "A-H3-002/e1",
+    "A-H3-004/e2",
+    "A-H3-005/e3",
+    "B-G3-002/e3",
+    "B-G3-003/e1",
+    "C-H3-001/e2"
+   ],
+   "heuristicas": [
+    "H3"
+   ],
+   "elemento": "Ações disponíveis para a tarefa — modal, modo de edição, cartão da agenda e linha da Lista",
+   "pontos_manifestacao": [
+    "Modal de detalhes (Fechar, Concluir, lápis)",
+    "Modo de edição (Cancelar, Salvar)",
+    "Cartão da agenda e linha da Lista"
+   ]
+  },
+  "U047": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 3,
+   "n_achados": 2,
+   "achados": [
+    "A-H5-007/e1",
+    "A-H5-010/e2"
+   ],
+   "heuristicas": [
+    "H5"
+   ],
+   "elemento": "Gravação de data, horário e duração em relação às demais tarefas do mesmo responsável",
+   "pontos_manifestacao": [
+    "Modal Nova tarefa, ao gravar em horário já ocupado",
+    "Grade da agenda, cartões dividindo a largura da coluna"
+   ]
+  },
+  "U048": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 3,
+   "n_achados": 12,
+   "achados": [
+    "A-H1-001/e2",
+    "A-H1-002/e1",
+    "A-H1-004/e3",
+    "B-G1-001/e2",
+    "B-G1-004/e3",
+    "B-G2-006/e3",
+    "B-G2-007/e2",
+    "B-G2-008/e1",
+    "B-G4-002/e2",
+    "C-H1-001/e1",
+    "C-H1-001/e2",
+    "C-H1-001/e3"
+   ],
+   "heuristicas": [
+    "H1",
+    "H4",
+    "H6"
+   ],
+   "elemento": "Mini calendário do painel lateral em relação ao rótulo de período e à grade principal",
+   "pontos_manifestacao": [
+    "Após acionar \"Hoje\" com o painel em outro mês",
+    "Após navegar por \"Anterior\" e \"Próximo\"",
+    "Após trocar a visualização entre Dia, Semana e Mês"
+   ]
+  },
+  "U049": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 2,
+   "n_achados": 2,
+   "achados": [
+    "A-H5-008/e1",
+    "A-H5-009/e2"
+   ],
+   "heuristicas": [
+    "H5"
+   ],
+   "elemento": "Valor padrão do campo Data no modal Nova tarefa",
+   "pontos_manifestacao": [
+    "Modal aberto logo após o carregamento da aplicação",
+    "Modal aberto após navegar para outra semana"
+   ]
+  },
+  "U050": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 3,
+   "n_achados": 7,
+   "achados": [
+    "A-H6-005/e3",
+    "A-H6-007/e1",
+    "B-G3-009/e1",
+    "B-G4-001/e1",
+    "B-G4-001/e3",
+    "C-H5-002/e2",
+    "C-H6-002/e2"
+   ],
+   "heuristicas": [
+    "H5",
+    "H6",
+    "H7"
+   ],
+   "elemento": "Campos do painel Busca avançada ao ser reaberto com filtros aplicados",
+   "pontos_manifestacao": [
+    "Painel reaberto com o filtro de Título aplicado",
+    "Barra \"Filtros:\" após nova submissão, exibindo apenas o último critério"
+   ]
+  },
+  "U051": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 1,
+   "n_achados": 3,
+   "achados": [
+    "A-H4-008/e1",
+    "A-H4-009/e2",
+    "A-H4-012/e3"
+   ],
+   "heuristicas": [
+    "H4"
+   ],
+   "elemento": "Etiqueta de tipo — cartões do calendário, coluna Tipo da Lista e seletor do modal",
+   "pontos_manifestacao": [
+    "Cartões das visualizações Dia, Semana e Mês",
+    "Coluna \"Tipo\" da Lista",
+    "Lista suspensa \"Tipo\" do modal"
+   ]
+  },
+  "U052": {
+   "classificacao": "falso_positivo",
+   "severidade_pesquisador": null,
+   "n_achados": 4,
+   "achados": [
+    "A-H10-004/e1",
+    "A-H10-004/e3",
+    "B-G4-008/e3",
+    "B-G4-011/e3"
+   ],
+   "heuristicas": [
+    "H6",
+    "H10"
+   ],
+   "elemento": "Bloco de tarefa e sua alça inferior de redimensionamento — afordância e instrução",
+   "pontos_manifestacao": [
+    "Agenda, corpo do bloco nas visualizações Dia e Semana",
+    "Agenda, borda inferior do bloco"
+   ]
+  },
+  "U053": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 2,
+   "n_achados": 14,
+   "achados": [
+    "A-H2-003/e3",
+    "A-H2-005/e1",
+    "A-H2-005/e2",
+    "A-H4-004/e2",
+    "A-H4-006/e3",
+    "A-H5-002/e2",
+    "B-G1-010/e2",
+    "B-G2-007/e3",
+    "B-G2-010/e1",
+    "B-G3-005/e2",
+    "C-H2-001/e3",
+    "C-H2-002/e1",
+    "C-H2-002/e2",
+    "C-H4-001/e3"
+   ],
+   "heuristicas": [
+    "H2",
+    "H3",
+    "H4",
+    "H5"
+   ],
+   "elemento": "Botão primário do rodapé do modal de tarefa, nos modos de criação, edição e leitura",
+   "pontos_manifestacao": [
+    "Modo de leitura, par Fechar/Concluir",
+    "Modo de edição, par Cancelar/Salvar",
+    "Modal Nova tarefa, par Cancelar/Criar"
+   ]
+  },
+  "U054": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 2,
+   "n_achados": 3,
+   "achados": [
+    "B-G4-004/e1",
+    "B-G4-005/e2",
+    "B-G4-005/e3"
+   ],
+   "heuristicas": [
+    "H6"
+   ],
+   "elemento": "Listas de sugestão dos campos relacionais na parte inferior do modal",
+   "pontos_manifestacao": [
+    "Modal Nova tarefa, campo Cliente",
+    "Modal Nova tarefa, campo Oportunidade",
+    "Modal Nova tarefa, campo Usuários"
+   ]
+  },
+  "U055": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 3,
+   "n_achados": 6,
+   "achados": [
+    "A-H3-003/e3",
+    "B-G1-005/e3",
+    "B-G1-012/e3",
+    "B-G1-016/e2",
+    "B-G3-003/e2",
+    "C-H3-002/e1"
+   ],
+   "heuristicas": [
+    "H1",
+    "H3",
+    "H5"
+   ],
+   "elemento": "Gesto de arrastar e redimensionar o bloco na grade — confirmação e reversão",
+   "pontos_manifestacao": [
+    "Arraste do cartão para outro dia e horário",
+    "Alça de redimensionamento na borda inferior do bloco"
+   ]
+  },
+  "U056": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 3,
+   "n_achados": 7,
+   "achados": [
+    "A-H1-006/e2",
+    "A-H1-006/e3",
+    "B-G1-001/e3",
+    "B-G1-006/e1",
+    "C-H1-003/e1",
+    "C-H1-006/e3",
+    "C-H1-008/e2"
+   ],
+   "heuristicas": [
+    "H1"
+   ],
+   "elemento": "Retorno da interface após Criar no modal Nova tarefa e Salvar no modal Editar tarefa",
+   "pontos_manifestacao": [
+    "Criação com data fora do período exibido",
+    "Edição que desloca a tarefa para outro período",
+    "Lista e agenda após a gravação"
+   ]
+  },
+  "U057": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 3,
+   "n_achados": 3,
+   "achados": [
+    "A-H10-003/e1",
+    "B-G1-005/e1",
+    "C-H1-004/e2"
+   ],
+   "heuristicas": [
+    "H1",
+    "H10"
+   ],
+   "elemento": "Campo \"Pesquisar tarefas…\" da barra superior — escopo da pesquisa",
+   "pontos_manifestacao": [
+    "Barra superior com a visualização Semana ativa",
+    "Barra superior com a visualização Dia ativa",
+    "Estado sem resultados decorrente da pesquisa"
+   ]
+  },
+  "U058": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 3,
+   "n_achados": 1,
+   "achados": [
+    "A-H10-004/e2"
+   ],
+   "heuristicas": [
+    "H10"
+   ],
+   "elemento": "Campo \"Pesquisar tarefas…\" — alcance dos campos pesquisados",
+   "pontos_manifestacao": [
+    "Barra superior, campo de pesquisa rápida",
+    "Painel Busca avançada, campo de palavras-chave na descrição"
+   ]
+  },
+  "U059": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 2,
+   "n_achados": 1,
+   "achados": [
+    "B-G3-011/e2"
+   ],
+   "heuristicas": [
+    "H7"
+   ],
+   "elemento": "Cabeçalho do mini calendário e controles Hoje/Anterior/Próximo",
+   "pontos_manifestacao": [
+    "Painel lateral, cabeçalho e setas de mês",
+    "Barra superior, controles de período"
+   ]
+  },
+  "U060": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 3,
+   "n_achados": 7,
+   "achados": [
+    "A-H1-001/e3",
+    "A-H1-004/e1",
+    "A-H1-011/e2",
+    "B-G1-004/e1",
+    "B-G1-005/e2",
+    "B-G1-007/e3",
+    "C-H1-002/e3"
+   ],
+   "heuristicas": [
+    "H1"
+   ],
+   "elemento": "Retorno da interface imediatamente após o acionamento do controle de conclusão",
+   "pontos_manifestacao": [
+    "Controle circular do cartão na visualização Semana",
+    "Botão de conclusão do rodapé do modal",
+    "Ausência de região de notificação em toda a tela"
+   ]
+  },
+  "U061": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 3,
+   "n_achados": 4,
+   "achados": [
+    "A-H1-010/e2",
+    "A-H6-003/e1",
+    "A-H6-004/e3",
+    "B-G4-006/e3"
+   ],
+   "heuristicas": [
+    "H1",
+    "H6"
+   ],
+   "elemento": "Indicação de responsável nos blocos da agenda e na tabela da Lista",
+   "pontos_manifestacao": [
+    "Lista com usuários adicionais no filtro",
+    "Blocos das visualizações Dia, Semana e Mês",
+    "Cabeçalho da área de conteúdo, sem menção ao escopo"
+   ]
+  },
+  "U062": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 2,
+   "n_achados": 3,
+   "achados": [
+    "A-H1-008/e1",
+    "A-H1-009/e2",
+    "A-H1-010/e3"
+   ],
+   "heuristicas": [
+    "H1"
+   ],
+   "elemento": "Campo Endereço do modal, alterado pela seleção no campo Cliente",
+   "pontos_manifestacao": [
+    "Ao escolher um cliente",
+    "Ao trocar de cliente",
+    "Após remover o cliente"
+   ]
+  },
+  "U063": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 4,
+   "n_achados": 5,
+   "achados": [
+    "A-H4-001/e3",
+    "B-G1-004/e2",
+    "B-G2-004/e1",
+    "B-G2-010/e2",
+    "C-H1-002/e2"
+   ],
+   "heuristicas": [
+    "H1",
+    "H2",
+    "H4"
+   ],
+   "elemento": "Intervalo de datas da visualização Lista em relação ao rótulo de período",
+   "pontos_manifestacao": [
+    "Lista com o período em \"Dia\", exibindo o dia anterior e o seguinte",
+    "Lista com o período em \"Mês\", exibindo dias vizinhos"
+   ]
+  },
+  "U064": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 1,
+   "n_achados": 2,
+   "achados": [
+    "A-H4-001/e1",
+    "A-H4-014/e3"
+   ],
+   "heuristicas": [
+    "H4"
+   ],
+   "elemento": "Textos de apoio e ícones dos campos Cliente, Oportunidade, Usuários, Contatos e Marcadores",
+   "pontos_manifestacao": [
+    "Modal Nova tarefa, seção dos campos relacionais",
+    "Painel lateral, campos equivalentes"
+   ]
+  },
+  "U065": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 2,
+   "n_achados": 4,
+   "achados": [
+    "A-H4-002/e1",
+    "A-H7-002/e2",
+    "B-G3-006/e1",
+    "B-G3-009/e2"
+   ],
+   "heuristicas": [
+    "H4",
+    "H7"
+   ],
+   "elemento": "Listas de sugestão dos campos de autocompletar — navegação por teclado",
+   "pontos_manifestacao": [
+    "Modais de tarefa, campos relacionais",
+    "Painel lateral, campos de usuários e marcadores",
+    "Painel Busca avançada, campos equivalentes"
+   ]
+  },
+  "U066": {
+   "classificacao": "falso_positivo",
+   "severidade_pesquisador": null,
+   "n_achados": 3,
+   "achados": [
+    "A-H8-001/e1",
+    "A-H8-001/e3",
+    "B-G2-017/e3"
+   ],
+   "heuristicas": [
+    "H8"
+   ],
+   "elemento": "Coluna \"Descrição\" da tabela da visualização Lista",
+   "pontos_manifestacao": [
+    "Lista, todas as linhas do período exibido",
+    "Modal de detalhes, campo Descrição com o mesmo prefixo e código"
+   ]
+  },
+  "U067": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 3,
+   "n_achados": 1,
+   "achados": [
+    "B-G4-003/e1"
+   ],
+   "heuristicas": [
+    "H6"
+   ],
+   "elemento": "Corpo rolável do modal — rolagem horizontal e coluna de rótulos",
+   "pontos_manifestacao": [
+    "Modal Nova tarefa, após o foco no campo Oportunidade"
+   ]
+  },
+  "U068": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 3,
+   "n_achados": 2,
+   "achados": [
+    "A-H4-012/e1",
+    "C-H4-003/e1"
+   ],
+   "heuristicas": [
+    "H4"
+   ],
+   "elemento": "Ordenação das linhas da Lista após a inserção de uma tarefa",
+   "pontos_manifestacao": [
+    "Lista, última linha após a criação",
+    "Visualização Mês, mesma tarefa na posição correta"
+   ]
+  },
+  "U069": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 3,
+   "n_achados": 6,
+   "achados": [
+    "A-H7-004/e3",
+    "A-H7-005/e2",
+    "A-H7-006/e1",
+    "B-G3-005/e1",
+    "B-G3-009/e3",
+    "B-G3-010/e2"
+   ],
+   "heuristicas": [
+    "H7"
+   ],
+   "elemento": "Preferências de visualização, status e filtros entre sessões",
+   "pontos_manifestacao": [
+    "Estado inicial após cada carregamento",
+    "Seletores \"Modo de visualização\" e \"Status das tarefas\"",
+    "Filtros do painel lateral"
+   ]
+  },
+  "U070": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 3,
+   "n_achados": 1,
+   "achados": [
+    "C-H5-005/e2"
+   ],
+   "heuristicas": [
+    "H5"
+   ],
+   "elemento": "Botão \"Concluir\" do rodapé do diálogo durante o carregamento",
+   "pontos_manifestacao": [
+    "Diálogo de detalhes com o corpo ainda vazio"
+   ]
+  },
+  "U071": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 2,
+   "n_achados": 1,
+   "achados": [
+    "B-G1-006/e2"
+   ],
+   "heuristicas": [
+    "H1"
+   ],
+   "elemento": "Área de conteúdo da agenda durante o carregamento de um novo período",
+   "pontos_manifestacao": [
+    "Visualização Semana após acionar \"Próximo\""
+   ]
+  },
+  "U072": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 3,
+   "n_achados": 1,
+   "achados": [
+    "A-H9-004/e2"
+   ],
+   "heuristicas": [
+    "H9"
+   ],
+   "elemento": "Tratamento de erro da conclusão pela Lista e do carregamento de tarefas de outro usuário",
+   "pontos_manifestacao": [
+    "Lista, controle de conclusão da linha",
+    "Painel lateral, carregamento das tarefas do usuário adicionado"
+   ]
+  },
+  "U073": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 1,
+   "n_achados": 2,
+   "achados": [
+    "A-H4-008/e3",
+    "A-H4-016/e2"
+   ],
+   "heuristicas": [
+    "H4"
+   ],
+   "elemento": "Campos Data e Horário do modal em relação aos demais seletores e ao calendário do painel",
+   "pontos_manifestacao": [
+    "Modal Nova tarefa, campos Data e Horário",
+    "Painel lateral, calendário próprio"
+   ]
+  },
+  "U074": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 2,
+   "n_achados": 3,
+   "achados": [
+    "A-H8-003/e2",
+    "A-H8-004/e1",
+    "A-H8-005/e3"
+   ],
+   "heuristicas": [
+    "H8"
+   ],
+   "elemento": "Corpo do formulário do modal Nova tarefa — ordenação e peso visual dos campos",
+   "pontos_manifestacao": [
+    "Primeira tela antes da rolagem",
+    "Campos abaixo da dobra"
+   ]
+  },
+  "U075": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 2,
+   "n_achados": 1,
+   "achados": [
+    "A-H4-014/e2"
+   ],
+   "heuristicas": [
+    "H4"
+   ],
+   "elemento": "Nome acessível do controle de conclusão nos cartões e nas linhas da Lista",
+   "pontos_manifestacao": [
+    "Cartão do calendário, estados aberto e concluído",
+    "Coluna de status da Lista, estados aberto e concluído"
+   ]
+  },
+  "U076": {
+   "classificacao": "falso_positivo",
+   "severidade_pesquisador": null,
+   "n_achados": 1,
+   "achados": [
+    "A-H2-003/e2"
+   ],
+   "heuristicas": [
+    "H2"
+   ],
+   "elemento": "Nome exibido da pessoa na lista do filtro \"Exibir tarefas de…\" e no campo Usuários",
+   "pontos_manifestacao": [
+    "Painel lateral, lista do filtro",
+    "Modal de tarefa, campo Usuários"
+   ]
+  },
+  "U077": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 2,
+   "n_achados": 2,
+   "achados": [
+    "A-H9-004/e3",
+    "A-H9-007/e1"
+   ],
+   "heuristicas": [
+    "H9"
+   ],
+   "elemento": "Lista suspensa de resultados do campo Cliente no modal de tarefa",
+   "pontos_manifestacao": [
+    "Modal Nova tarefa, campo \"Pesquisar cliente\" durante falha da consulta"
+   ]
+  },
+  "U078": {
+   "classificacao": "falso_positivo",
+   "severidade_pesquisador": null,
+   "n_achados": 1,
+   "achados": [
+    "B-G3-005/e3"
+   ],
+   "heuristicas": [
+    "H7"
+   ],
+   "elemento": "Horário pré-preenchido no modal aberto por clique em célula vazia",
+   "pontos_manifestacao": [
+    "Agenda, visualização Semana, cliques em linhas e colunas distintas"
+   ]
+  },
+  "U079": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 3,
+   "n_achados": 1,
+   "achados": [
+    "C-H1-011/e2"
+   ],
+   "heuristicas": [
+    "H1"
+   ],
+   "elemento": "Rótulo de período em relação ao conteúdo exibido durante a falha de carregamento",
+   "pontos_manifestacao": [
+    "Barra superior e tabela da Lista após falha ao carregar o novo período"
+   ]
+  },
+  "U080": {
+   "classificacao": "falso_positivo",
+   "severidade_pesquisador": null,
+   "n_achados": 3,
+   "achados": [
+    "A-H8-006/e2",
+    "A-H8-007/e1",
+    "A-H8-008/e3"
+   ],
+   "heuristicas": [
+    "H8"
+   ],
+   "elemento": "Mini calendário do painel lateral quando a visualização ativa é Mês",
+   "pontos_manifestacao": [
+    "Agenda, visualização Mês, painel lateral e grade principal lado a lado"
+   ]
+  },
+  "U081": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 2,
+   "n_achados": 2,
+   "achados": [
+    "A-H3-004/e1",
+    "A-H3-005/e2"
+   ],
+   "heuristicas": [
+    "H3"
+   ],
+   "elemento": "Listas suspensas dos filtros do painel lateral (Marcadores e Exibir tarefas de…)",
+   "pontos_manifestacao": [
+    "Lista do filtro Marcadores",
+    "Lista do filtro Exibir tarefas de…"
+   ]
+  },
+  "U082": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 2,
+   "n_achados": 1,
+   "achados": [
+    "A-H5-005/e2"
+   ],
+   "heuristicas": [
+    "H5"
+   ],
+   "elemento": "Campo Data do modal Nova tarefa — faixa de valores aceitos",
+   "pontos_manifestacao": [
+    "Campo Data com ano digitado incorretamente",
+    "Agenda, ausência da tarefa criada no período exibido"
+   ]
+  },
+  "U083": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 4,
+   "n_achados": 3,
+   "achados": [
+    "A-H9-005/e1",
+    "A-H9-006/e2",
+    "A-H9-006/e3"
+   ],
+   "heuristicas": [
+    "H9"
+   ],
+   "elemento": "Modal de detalhes/edição durante falha no carregamento dos dados",
+   "pontos_manifestacao": [
+    "Modal aberto pelo cartão da agenda",
+    "Modal aberto pela linha da Lista"
+   ]
+  },
+  "U084": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 2,
+   "n_achados": 1,
+   "achados": [
+    "A-H7-008/e1"
+   ],
+   "heuristicas": [
+    "H7"
+   ],
+   "elemento": "Modais Nova tarefa e Editar tarefa — recursos de reaproveitamento e padrões do formulário",
+   "pontos_manifestacao": [
+    "Modal Nova tarefa aberto pelo botão Criar tarefa",
+    "Modal de detalhes, ausência de \"Duplicar\""
+   ]
+  },
+  "U085": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 3,
+   "n_achados": 2,
+   "achados": [
+    "B-G2-004/e2",
+    "C-H2-002/e3"
+   ],
+   "heuristicas": [
+    "H2"
+   ],
+   "elemento": "Ação \"Limpar tudo\" da barra de filtros aplicados — escopo real",
+   "pontos_manifestacao": [
+    "Barra \"Filtros:\" com filtro de tipo ativo no painel lateral",
+    "Barra \"Filtros:\" com termo na pesquisa rápida"
+   ]
+  },
+  "U086": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 4,
+   "n_achados": 3,
+   "achados": [
+    "B-G1-002/e2",
+    "C-H1-009/e2",
+    "C-H4-005/e2"
+   ],
+   "heuristicas": [
+    "H1",
+    "H4"
+   ],
+   "elemento": "Controle de conclusão do item de tarefa na visualização Mês",
+   "pontos_manifestacao": [
+    "Visualização Mês, chip da tarefa",
+    "Comparação com o mesmo controle em Semana e Lista"
+   ]
+  },
+  "U087": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 2,
+   "n_achados": 1,
+   "achados": [
+    "A-H4-009/e3"
+   ],
+   "heuristicas": [
+    "H4"
+   ],
+   "elemento": "Componente de seleção de entidade relacionada nos campos Cliente e Oportunidade em relação a Usuários, Contatos e Marcadores",
+   "pontos_manifestacao": [
+    "Modal Nova tarefa, campos Cliente e Oportunidade",
+    "Modal Nova tarefa, campos Usuários, Contatos e Marcadores"
+   ]
+  },
+  "U088": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 2,
+   "n_achados": 1,
+   "achados": [
+    "A-H7-007/e3"
+   ],
+   "heuristicas": [
+    "H7"
+   ],
+   "elemento": "Ordem de tabulação da página — minicalendário antes da área de trabalho",
+   "pontos_manifestacao": [
+    "Navegação por Tab a partir do início da página"
+   ]
+  },
+  "U089": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 1,
+   "n_achados": 1,
+   "achados": [
+    "A-H2-004/e3"
+   ],
+   "heuristicas": [
+    "H2"
+   ],
+   "elemento": "Ordem das opções da lista suspensa do filtro \"Status das tarefas\"",
+   "pontos_manifestacao": [
+    "Barra superior, lista aberta do filtro de status"
+   ]
+  },
+  "U090": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 2,
+   "n_achados": 1,
+   "achados": [
+    "B-G4-009/e2"
+   ],
+   "heuristicas": [
+    "H6"
+   ],
+   "elemento": "Pontos indicadores do mini calendário — significado declarado",
+   "pontos_manifestacao": [
+    "Painel lateral, mini calendário, dias com ponto"
+   ]
+  },
+  "U091": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 3,
+   "n_achados": 1,
+   "achados": [
+    "B-G1-014/e2"
+   ],
+   "heuristicas": [
+    "H5"
+   ],
+   "elemento": "Rótulos dos campos Cliente e Usuários do modal Nova tarefa",
+   "pontos_manifestacao": [
+    "Modal Nova tarefa, rótulo \"Cliente\"",
+    "Modal Nova tarefa, rótulo \"Usuários\""
+   ]
+  },
+  "U092": {
+   "classificacao": "falso_positivo",
+   "severidade_pesquisador": null,
+   "n_achados": 1,
+   "achados": [
+    "B-G3-003/e3"
+   ],
+   "heuristicas": [
+    "H3"
+   ],
+   "elemento": "Integração da tela de Tarefas com o histórico do navegador",
+   "pontos_manifestacao": [
+    "Modal Editar tarefa aberto sobre a agenda, ao acionar Voltar",
+    "Navegação de período e troca de visualização"
+   ]
+  },
+  "U093": {
+   "classificacao": "defeito",
+   "severidade_pesquisador": 1,
+   "n_achados": 1,
+   "achados": [
+    "C-H4-002/e1"
+   ],
+   "heuristicas": [
+    "H4"
+   ],
+   "elemento": "Itens da lista suspensa do filtro \"Marcadores\" no painel lateral",
+   "pontos_manifestacao": [
+    "Painel lateral, lista do filtro Marcadores, item \"No show\""
+   ]
+  }
+ },
+ "fontes": {
+  "trilha": "C:\\Users\\EduardoDamiao\\Documents\\MBA USPEsalq\\entregas\\analise-2026-09-24\\trilha_decisoes.csv",
+  "encerramentos": "C:\\Users\\EduardoDamiao\\Documents\\MBA USPEsalq\\entregas\\analise-2026-09-24\\encerramentos.json",
+  "fora_do_escopo": "C:\\Users\\EduardoDamiao\\Documents\\MBA USPEsalq\\entregas\\analise-2026-09-24\\fora_do_escopo.json"
+ }
+}

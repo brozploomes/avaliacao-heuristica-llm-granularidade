@@ -1,0 +1,632 @@
+[
+ {
+  "registro": "encerramento",
+  "formato": "A",
+  "execucao": 1,
+  "modo_execucao": "paralela",
+  "paralelismo": 10,
+  "datahora_disparo": "2026-09-21T23:22:57-03:00",
+  "datahora_ultimo_retorno": "2026-09-21T23:46:25-03:00",
+  "datahora_fim": "2026-09-21T23:49:24-03:00",
+  "duracao_total_s": 1587,
+  "duracao_execucao_s": 1718,
+  "duracao_avaliacao_s": 1408,
+  "chamadas": [
+   {
+    "chamada": "H1",
+    "duracao_ms": 1081715,
+    "tokens": 151719,
+    "usos_ferramenta": 109,
+    "erros_ferramenta": 3,
+    "timeouts": 0,
+    "achados": 8
+   },
+   {
+    "chamada": "H2",
+    "duracao_ms": 1047375,
+    "tokens": 168688,
+    "usos_ferramenta": 129,
+    "erros_ferramenta": 3,
+    "timeouts": 0,
+    "achados": 9
+   },
+   {
+    "chamada": "H3",
+    "duracao_ms": 1105041,
+    "tokens": 166132,
+    "usos_ferramenta": 159,
+    "erros_ferramenta": 5,
+    "timeouts": 0,
+    "achados": 5
+   },
+   {
+    "chamada": "H4",
+    "duracao_ms": 1264404,
+    "tokens": 218246,
+    "usos_ferramenta": 158,
+    "erros_ferramenta": 1,
+    "timeouts": 0,
+    "achados": 12
+   },
+   {
+    "chamada": "H5",
+    "duracao_ms": 946370,
+    "tokens": 137799,
+    "usos_ferramenta": 125,
+    "erros_ferramenta": 3,
+    "timeouts": 0,
+    "achados": 8
+   },
+   {
+    "chamada": "H6",
+    "duracao_ms": 1215093,
+    "tokens": 188069,
+    "usos_ferramenta": 163,
+    "erros_ferramenta": 2,
+    "timeouts": 0,
+    "achados": 7
+   },
+   {
+    "chamada": "H7",
+    "duracao_ms": 820869,
+    "tokens": 120431,
+    "usos_ferramenta": 111,
+    "erros_ferramenta": 0,
+    "timeouts": 0,
+    "achados": 8
+   },
+   {
+    "chamada": "H8",
+    "duracao_ms": 742157,
+    "tokens": 153444,
+    "usos_ferramenta": 108,
+    "erros_ferramenta": 1,
+    "timeouts": 0,
+    "achados": 7
+   },
+   {
+    "chamada": "H9",
+    "duracao_ms": 776847,
+    "tokens": 140005,
+    "usos_ferramenta": 105,
+    "erros_ferramenta": 1,
+    "timeouts": 0,
+    "achados": 7
+   },
+   {
+    "chamada": "H10",
+    "duracao_ms": 519016,
+    "tokens": 103379,
+    "usos_ferramenta": 65,
+    "erros_ferramenta": 1,
+    "timeouts": 0,
+    "achados": 5
+   }
+  ],
+  "tokens_total": 1547912,
+  "usos_ferramenta_total": 1232,
+  "erros_ferramenta_total": 20,
+  "timeouts_total": 0,
+  "achados_total": 76,
+  "arquivos_evidencia": 193,
+  "duracao_ms_soma": 9518887,
+  "duracao_ms_max": 1264404,
+  "concorrencia_observada": "paralela",
+  "_arquivo": "resultados\\exec-1\\resultados_A.jsonl"
+ },
+ {
+  "registro": "encerramento",
+  "formato": "B",
+  "execucao": 1,
+  "modo_execucao": "paralela",
+  "paralelismo": 4,
+  "datahora_disparo": "2026-09-22T03:06:53Z",
+  "datahora_ultimo_retorno": "2026-09-22T03:35:54Z",
+  "datahora_fim": "2026-09-22T03:38:50Z",
+  "duracao_total_s": 1918,
+  "duracao_execucao_s": 1959,
+  "duracao_avaliacao_s": 1741,
+  "chamadas": [
+   {
+    "chamada": "G1",
+    "duracao_ms": 1669733,
+    "tokens": 311802,
+    "usos_ferramenta": 300,
+    "erros_ferramenta": 3,
+    "timeouts": 0,
+    "achados": 14
+   },
+   {
+    "chamada": "G2",
+    "duracao_ms": 1271151,
+    "tokens": 215768,
+    "usos_ferramenta": 187,
+    "erros_ferramenta": 2,
+    "timeouts": 0,
+    "achados": 15
+   },
+   {
+    "chamada": "G3",
+    "duracao_ms": 1074011,
+    "tokens": 224061,
+    "usos_ferramenta": 197,
+    "erros_ferramenta": 5,
+    "timeouts": 0,
+    "achados": 9
+   },
+   {
+    "chamada": "G4",
+    "duracao_ms": 873445,
+    "tokens": 171587,
+    "usos_ferramenta": 140,
+    "erros_ferramenta": 1,
+    "timeouts": 0,
+    "achados": 10
+   }
+  ],
+  "tokens_total": 923218,
+  "usos_ferramenta_total": 824,
+  "erros_ferramenta_total": 11,
+  "timeouts_total": 0,
+  "achados_total": 48,
+  "arquivos_evidencia": 127,
+  "duracao_ms_soma": 4888340,
+  "duracao_ms_max": 1669733,
+  "concorrencia_observada": "paralela",
+  "_arquivo": "resultados\\exec-1\\resultados_B.jsonl"
+ },
+ {
+  "registro": "encerramento",
+  "formato": "C",
+  "execucao": 1,
+  "modo_execucao": "chamada_unica",
+  "paralelismo": 1,
+  "datahora_disparo": "2026-09-22T03:53:12.550Z",
+  "datahora_ultimo_retorno": "2026-09-22T04:26:20.259Z",
+  "datahora_fim": "2026-09-22T04:30:40.345Z",
+  "duracao_total_s": 2248,
+  "duracao_execucao_s": 2276,
+  "duracao_avaliacao_s": 1988,
+  "chamadas": [
+   {
+    "chamada": "unica",
+    "duracao_ms": 1904046,
+    "tokens": 288597,
+    "usos_ferramenta": 268,
+    "erros_ferramenta": 4,
+    "timeouts": 0,
+    "achados": 26
+   }
+  ],
+  "tokens_total": 288597,
+  "usos_ferramenta_total": 268,
+  "erros_ferramenta_total": 4,
+  "timeouts_total": 0,
+  "achados_total": 26,
+  "arquivos_evidencia": 60,
+  "duracao_ms_soma": 1904046,
+  "duracao_ms_max": 1904046,
+  "concorrencia_observada": "nao_aplicavel",
+  "_arquivo": "resultados\\exec-1\\resultados_C.jsonl"
+ },
+ {
+  "registro": "encerramento",
+  "formato": "A",
+  "execucao": 2,
+  "modo_execucao": "paralela",
+  "paralelismo": 10,
+  "datahora_disparo": "2026-09-22T23:40:25-03:00",
+  "datahora_ultimo_retorno": "2026-09-23T00:31:18-03:00",
+  "datahora_fim": "2026-09-23T03:38:07.997Z",
+  "duracao_total_s": 3463,
+  "duracao_execucao_s": 3511,
+  "duracao_avaliacao_s": 3053,
+  "chamadas": [
+   {
+    "chamada": "H1",
+    "duracao_ms": 3010711,
+    "tokens": 283921,
+    "usos_ferramenta": 259,
+    "erros_ferramenta": 0,
+    "timeouts": 0,
+    "achados": 11
+   },
+   {
+    "chamada": "H2",
+    "duracao_ms": 1245947,
+    "tokens": 166985,
+    "usos_ferramenta": 133,
+    "erros_ferramenta": 2,
+    "timeouts": 0,
+    "achados": 8
+   },
+   {
+    "chamada": "H3",
+    "duracao_ms": 1379103,
+    "tokens": 164324,
+    "usos_ferramenta": 136,
+    "erros_ferramenta": 1,
+    "timeouts": 0,
+    "achados": 5
+   },
+   {
+    "chamada": "H4",
+    "duracao_ms": 2132106,
+    "tokens": 249296,
+    "usos_ferramenta": 207,
+    "erros_ferramenta": 2,
+    "timeouts": 0,
+    "achados": 16
+   },
+   {
+    "chamada": "H5",
+    "duracao_ms": 1400670,
+    "tokens": 155772,
+    "usos_ferramenta": 140,
+    "erros_ferramenta": 2,
+    "timeouts": 0,
+    "achados": 10
+   },
+   {
+    "chamada": "H6",
+    "duracao_ms": 1414736,
+    "tokens": 165849,
+    "usos_ferramenta": 136,
+    "erros_ferramenta": 1,
+    "timeouts": 0,
+    "achados": 5
+   },
+   {
+    "chamada": "H7",
+    "duracao_ms": 1766126,
+    "tokens": 182937,
+    "usos_ferramenta": 165,
+    "erros_ferramenta": 3,
+    "timeouts": 0,
+    "achados": 5
+   },
+   {
+    "chamada": "H8",
+    "duracao_ms": 1340761,
+    "tokens": 144931,
+    "usos_ferramenta": 142,
+    "erros_ferramenta": 1,
+    "timeouts": 0,
+    "achados": 6
+   },
+   {
+    "chamada": "H9",
+    "duracao_ms": 1561579,
+    "tokens": 164078,
+    "usos_ferramenta": 134,
+    "erros_ferramenta": 4,
+    "timeouts": 0,
+    "achados": 6
+   },
+   {
+    "chamada": "H10",
+    "duracao_ms": 487960,
+    "tokens": 82145,
+    "usos_ferramenta": 64,
+    "erros_ferramenta": 0,
+    "timeouts": 0,
+    "achados": 5
+   }
+  ],
+  "tokens_total": 1760238,
+  "usos_ferramenta_total": 1516,
+  "erros_ferramenta_total": 16,
+  "timeouts_total": 0,
+  "achados_total": 77,
+  "arquivos_evidencia": 217,
+  "duracao_ms_soma": 15739699,
+  "duracao_ms_max": 3010711,
+  "concorrencia_observada": "paralela",
+  "_arquivo": "resultados\\exec-2\\resultados_A.jsonl"
+ },
+ {
+  "registro": "encerramento",
+  "formato": "B",
+  "execucao": 2,
+  "modo_execucao": "paralela",
+  "paralelismo": 4,
+  "datahora_disparo": "2026-09-23T00:46:43-03:00",
+  "datahora_ultimo_retorno": "2026-09-23T01:48:45-03:00",
+  "datahora_fim": "2026-09-23T01:53:07-03:00",
+  "duracao_total_s": 3984,
+  "duracao_execucao_s": 4029,
+  "duracao_avaliacao_s": 3722,
+  "chamadas": [
+   {
+    "chamada": "G1",
+    "duracao_ms": 3251842,
+    "tokens": 339272,
+    "usos_ferramenta": 299,
+    "erros_ferramenta": 2,
+    "timeouts": 0,
+    "achados": 19
+   },
+   {
+    "chamada": "G2",
+    "duracao_ms": 3649770,
+    "tokens": 337415,
+    "usos_ferramenta": 333,
+    "erros_ferramenta": 2,
+    "timeouts": 0,
+    "achados": 16
+   },
+   {
+    "chamada": "G3",
+    "duracao_ms": 1672956,
+    "tokens": 190371,
+    "usos_ferramenta": 186,
+    "erros_ferramenta": 3,
+    "timeouts": 0,
+    "achados": 11
+   },
+   {
+    "chamada": "G4",
+    "duracao_ms": 2104785,
+    "tokens": 231931,
+    "usos_ferramenta": 198,
+    "erros_ferramenta": 6,
+    "timeouts": 0,
+    "achados": 12
+   }
+  ],
+  "tokens_total": 1098989,
+  "usos_ferramenta_total": 1016,
+  "erros_ferramenta_total": 13,
+  "timeouts_total": 0,
+  "achados_total": 58,
+  "arquivos_evidencia": 156,
+  "duracao_ms_soma": 10679353,
+  "duracao_ms_max": 3649770,
+  "concorrencia_observada": "paralela",
+  "_arquivo": "resultados\\exec-2\\resultados_B.jsonl"
+ },
+ {
+  "registro": "encerramento",
+  "formato": "C",
+  "execucao": 2,
+  "modo_execucao": "chamada_unica",
+  "paralelismo": 1,
+  "datahora_disparo": "2026-09-23T03:38:55-0300",
+  "datahora_ultimo_retorno": "2026-09-23T04:30:55-0300",
+  "datahora_fim": "2026-09-23T04:33:46-0300",
+  "duracao_total_s": 3291,
+  "duracao_execucao_s": 3309,
+  "duracao_avaliacao_s": 3120,
+  "chamadas": [
+   {
+    "chamada": "unica",
+    "duracao_ms": 3037300,
+    "tokens": 395019,
+    "usos_ferramenta": 410,
+    "erros_ferramenta": 6,
+    "timeouts": 0,
+    "achados": 37
+   }
+  ],
+  "tokens_total": 395019,
+  "usos_ferramenta_total": 410,
+  "erros_ferramenta_total": 6,
+  "timeouts_total": 0,
+  "achados_total": 37,
+  "arquivos_evidencia": 91,
+  "duracao_ms_soma": 3037300,
+  "duracao_ms_max": 3037300,
+  "concorrencia_observada": "nao_aplicavel",
+  "_arquivo": "resultados\\exec-2\\resultados_C.jsonl"
+ },
+ {
+  "registro": "encerramento",
+  "formato": "A",
+  "execucao": 3,
+  "modo_execucao": "paralela",
+  "paralelismo": 10,
+  "datahora_disparo": "2026-09-23T21:46:50-03:00",
+  "datahora_ultimo_retorno": "2026-09-23T22:16:38-03:00",
+  "datahora_fim": "2026-09-24T01:24:22.003Z",
+  "duracao_total_s": 2252,
+  "duracao_execucao_s": 2409,
+  "duracao_avaliacao_s": 1788,
+  "chamadas": [
+   {
+    "chamada": "H1",
+    "duracao_ms": 1718102,
+    "tokens": 278509,
+    "usos_ferramenta": 234,
+    "erros_ferramenta": 2,
+    "timeouts": 0,
+    "achados": 10
+   },
+   {
+    "chamada": "H2",
+    "duracao_ms": 1095314,
+    "tokens": 189348,
+    "usos_ferramenta": 159,
+    "erros_ferramenta": 3,
+    "timeouts": 0,
+    "achados": 6
+   },
+   {
+    "chamada": "H3",
+    "duracao_ms": 918390,
+    "tokens": 160289,
+    "usos_ferramenta": 137,
+    "erros_ferramenta": 3,
+    "timeouts": 1,
+    "achados": 6
+   },
+   {
+    "chamada": "H4",
+    "duracao_ms": 1316108,
+    "tokens": 249016,
+    "usos_ferramenta": 200,
+    "erros_ferramenta": 0,
+    "timeouts": 0,
+    "achados": 14
+   },
+   {
+    "chamada": "H5",
+    "duracao_ms": 1202023,
+    "tokens": 165006,
+    "usos_ferramenta": 170,
+    "erros_ferramenta": 3,
+    "timeouts": 0,
+    "achados": 5
+   },
+   {
+    "chamada": "H6",
+    "duracao_ms": 1087789,
+    "tokens": 219280,
+    "usos_ferramenta": 184,
+    "erros_ferramenta": 6,
+    "timeouts": 0,
+    "achados": 7
+   },
+   {
+    "chamada": "H7",
+    "duracao_ms": 1069551,
+    "tokens": 160610,
+    "usos_ferramenta": 128,
+    "erros_ferramenta": 0,
+    "timeouts": 0,
+    "achados": 7
+   },
+   {
+    "chamada": "H8",
+    "duracao_ms": 595491,
+    "tokens": 115785,
+    "usos_ferramenta": 85,
+    "erros_ferramenta": 3,
+    "timeouts": 0,
+    "achados": 8
+   },
+   {
+    "chamada": "H9",
+    "duracao_ms": 872766,
+    "tokens": 155332,
+    "usos_ferramenta": 119,
+    "erros_ferramenta": 2,
+    "timeouts": 0,
+    "achados": 6
+   },
+   {
+    "chamada": "H10",
+    "duracao_ms": 543378,
+    "tokens": 95921,
+    "usos_ferramenta": 80,
+    "erros_ferramenta": 2,
+    "timeouts": 0,
+    "achados": 5
+   }
+  ],
+  "tokens_total": 1789096,
+  "usos_ferramenta_total": 1496,
+  "erros_ferramenta_total": 24,
+  "timeouts_total": 1,
+  "achados_total": 74,
+  "arquivos_evidencia": 209,
+  "duracao_ms_soma": 10418912,
+  "duracao_ms_max": 1718102,
+  "concorrencia_observada": "paralela",
+  "_arquivo": "resultados\\exec-3\\resultados_A.jsonl"
+ },
+ {
+  "registro": "encerramento",
+  "formato": "B",
+  "execucao": 3,
+  "modo_execucao": "paralela",
+  "paralelismo": 4,
+  "datahora_disparo": "2026-09-23T22:31:48-03:00",
+  "datahora_ultimo_retorno": "2026-09-23T23:02:24-03:00",
+  "datahora_fim": "2026-09-23T23:06:19-03:00",
+  "duracao_total_s": 2072,
+  "duracao_execucao_s": 2219,
+  "duracao_avaliacao_s": 1836,
+  "chamadas": [
+   {
+    "chamada": "G1",
+    "duracao_ms": 1431929,
+    "tokens": 196701,
+    "usos_ferramenta": 171,
+    "erros_ferramenta": 3,
+    "timeouts": 0,
+    "achados": 14
+   },
+   {
+    "chamada": "G2",
+    "duracao_ms": 1653927,
+    "tokens": 253364,
+    "usos_ferramenta": 215,
+    "erros_ferramenta": 1,
+    "timeouts": 0,
+    "achados": 18
+   },
+   {
+    "chamada": "G3",
+    "duracao_ms": 1727272,
+    "tokens": 194802,
+    "usos_ferramenta": 219,
+    "erros_ferramenta": 3,
+    "timeouts": 0,
+    "achados": 10
+   },
+   {
+    "chamada": "G4",
+    "duracao_ms": 1224989,
+    "tokens": 181464,
+    "usos_ferramenta": 159,
+    "erros_ferramenta": 2,
+    "timeouts": 0,
+    "achados": 11
+   }
+  ],
+  "tokens_total": 826331,
+  "usos_ferramenta_total": 764,
+  "erros_ferramenta_total": 9,
+  "timeouts_total": 0,
+  "achados_total": 53,
+  "arquivos_evidencia": 143,
+  "duracao_ms_soma": 6038117,
+  "duracao_ms_max": 1727272,
+  "concorrencia_observada": "paralela",
+  "_arquivo": "resultados\\exec-3\\resultados_B.jsonl"
+ },
+ {
+  "registro": "encerramento",
+  "formato": "C",
+  "execucao": 3,
+  "modo_execucao": "chamada_unica",
+  "paralelismo": 1,
+  "datahora_disparo": "2026-09-23T23:11:46-03:00",
+  "datahora_ultimo_retorno": "2026-09-23T23:56:05-03:00",
+  "datahora_fim": "2026-09-23T23:57:57-03:00",
+  "duracao_total_s": 2771,
+  "duracao_execucao_s": 2812,
+  "duracao_avaliacao_s": 2659,
+  "chamadas": [
+   {
+    "chamada": "unica",
+    "duracao_ms": 2578545,
+    "tokens": 331333,
+    "usos_ferramenta": 323,
+    "erros_ferramenta": 4,
+    "timeouts": 0,
+    "achados": 27
+   }
+  ],
+  "tokens_total": 331333,
+  "usos_ferramenta_total": 323,
+  "erros_ferramenta_total": 4,
+  "timeouts_total": 0,
+  "achados_total": 27,
+  "arquivos_evidencia": 71,
+  "duracao_ms_soma": 2578545,
+  "duracao_ms_max": 2578545,
+  "concorrencia_observada": "nao_aplicavel",
+  "_arquivo": "resultados\\exec-3\\resultados_C.jsonl"
+ }
+]

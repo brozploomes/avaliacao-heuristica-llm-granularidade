@@ -1,0 +1,17 @@
+# lixo de sistema operacional
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# evidencia dos ensaios: nao rastreada, como as evidencias da coleta
+verificacoes/ensaio_*/evidencias/
+
+# saidas da coleta: nao rastreadas, para que o commit identifique so o instrumento
+evidencias/exec-*/
+resultados/exec-*/
+resultados/caracterizacao_*.json
+evidencias/caracterizacao_*/
+
+# saídas dos testes da cadeia de análise (cópias de evidência, planilhas de ensaio)
+analise/testes/saida/
+analise/__pycache__/

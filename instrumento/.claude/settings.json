@@ -1,0 +1,32 @@
+{
+  "model": "claude-opus-5",
+  "permissions": {
+    "allow": [
+      "mcp__cdp-01__*",
+      "mcp__cdp-02__*",
+      "mcp__cdp-03__*",
+      "mcp__cdp-04__*",
+      "mcp__cdp-05__*",
+      "mcp__cdp-06__*",
+      "mcp__cdp-07__*",
+      "mcp__cdp-08__*",
+      "mcp__cdp-09__*",
+      "mcp__cdp-10__*",
+      "Write(evidencias/**)",
+      "Write(contexto/**)",
+      "Bash(printf:*)",
+      "Bash(date:*)",
+      "Bash(node:*)",
+      "Bash(cat:*)",
+      "Bash(sha256sum:*)",
+      "Bash(mkdir:*)",
+      "Bash(rmdir:*)",
+      "Bash(mv:*)",
+      "Bash(cp:*)",
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "Bash(wc:*)",
+      "Bash(git:*)"
+    ]
+  }
+}

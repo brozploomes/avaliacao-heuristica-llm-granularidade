@@ -1,0 +1,6 @@
+# Nenhum arquivo passa por conversão de fim de linha no checkout.
+#
+# O SHA-256 do objeto e do material de contexto está gravado nos nove cabeçalhos da coleta, e o
+# MANIFESTO.sha256 traz o hash de cada arquivo. Com core.autocrlf ligado (padrão no Git para
+# Windows), um clone trocaria LF por CRLF e nenhum desses hashes voltaria a conferir.
+* -text

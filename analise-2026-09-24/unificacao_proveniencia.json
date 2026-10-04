@@ -1,0 +1,22 @@
+{
+ "data": "2026-09-24T03:24:59-03:00",
+ "modelo": "claude-opus-5",
+ "nivel_raciocinio": "alto",
+ "versao_app": "2.2553.1",
+ "semente": 20260924,
+ "achados": 476,
+ "achados_unificados": 93,
+ "agente": "unificador",
+ "rodadas": 2,
+ "leituras": {
+  "total": 142,
+  "lotes": 12,
+  "tamanho_lote": 8,
+  "rodadas": 2
+ },
+ "prompt": "prompt_unificacao.md",
+ "saida_bruta": "unificacao_ia_bruto.md",
+ "protocolo": "instrumento/protocolo/unificacao.md",
+ "saida_bruta_natureza": "transcrita pelo orquestrador: os retornos dos subagentes nao foram gravados em disco nesta sessao (arquivos de saida com 0 byte), e os 12 lotes mais as duas rodadas da unificacao foram transcritos na integra para os .md brutos. Transcricao literal, sem edicao, mas nao e captura automatica.",
+ "rodadas_motivo": "a rodada 1 da unificacao chegou truncada na frente, comecando em U053, e reprovou no parse. A rodada 2, pedida ao mesmo agente na mesma conversa, veio integra. Os 41 achados unificados presentes no fragmento da rodada 1 (U053 a U093, 108 chaves) tem composicao identica a da rodada 2, o que indica retransmissao e nao nova unificacao. Apenas a rodada 2 alimenta unificacao_ia.json."
+}

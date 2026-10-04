@@ -1,0 +1,3 @@
+# saídas de quem refaz a revisão ou as métricas (ver README, "Como recalcular as métricas")
+/refazer/
+__pycache__/

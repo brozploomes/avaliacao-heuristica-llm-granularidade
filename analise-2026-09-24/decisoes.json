@@ -1,0 +1,563 @@
+{
+ "achados_unificados": {
+  "U001": {
+   "classificacao": "falso_positivo",
+   "severidade": null,
+   "observacao": "O título realmente não é um campo obrigatório para a tarefa.",
+   "quando": "2026-09-25T02:15:54.558Z"
+  },
+  "U002": {
+   "classificacao": "defeito",
+   "severidade": 2,
+   "observacao": "",
+   "quando": "2026-09-25T02:17:45.746Z"
+  },
+  "U003": {
+   "classificacao": "defeito",
+   "severidade": 2,
+   "observacao": "",
+   "quando": "2026-09-25T02:19:18.874Z"
+  },
+  "U004": {
+   "classificacao": "defeito",
+   "severidade": 2,
+   "observacao": "",
+   "quando": "2026-09-25T02:20:54.516Z"
+  },
+  "U005": {
+   "classificacao": "defeito",
+   "severidade": 1,
+   "observacao": "",
+   "quando": "2026-09-25T02:22:39.567Z"
+  },
+  "U006": {
+   "classificacao": "defeito",
+   "severidade": 2,
+   "observacao": "",
+   "quando": "2026-09-25T02:23:22.717Z"
+  },
+  "U007": {
+   "classificacao": "defeito",
+   "severidade": 2,
+   "observacao": "",
+   "quando": "2026-09-25T02:24:32.168Z"
+  },
+  "U008": {
+   "classificacao": "defeito",
+   "severidade": 2,
+   "observacao": "",
+   "quando": "2026-09-25T02:25:26.180Z"
+  },
+  "U009": {
+   "classificacao": "falso_positivo",
+   "severidade": null,
+   "observacao": "Ela pode, os avaliadores via Claude e DevTools MCP é que não tinha capacidade de realizar essa manipulação.",
+   "quando": "2026-09-25T02:25:35.693Z"
+  },
+  "U010": {
+   "classificacao": "defeito",
+   "severidade": 2,
+   "observacao": "",
+   "quando": "2026-09-25T02:26:47.222Z"
+  },
+  "U011": {
+   "classificacao": "defeito",
+   "severidade": 1,
+   "observacao": "",
+   "quando": "2026-09-25T02:28:12.190Z"
+  },
+  "U012": {
+   "classificacao": "defeito",
+   "severidade": 3,
+   "observacao": "",
+   "quando": "2026-09-25T02:28:39.658Z"
+  },
+  "U013": {
+   "classificacao": "defeito",
+   "severidade": 3,
+   "observacao": "",
+   "quando": "2026-09-25T02:28:56.568Z"
+  },
+  "U014": {
+   "classificacao": "defeito",
+   "severidade": 2,
+   "observacao": "",
+   "quando": "2026-09-25T02:29:33.750Z"
+  },
+  "U015": {
+   "classificacao": "defeito",
+   "severidade": 1,
+   "observacao": "",
+   "quando": "2026-09-25T02:31:52.339Z"
+  },
+  "U016": {
+   "classificacao": "defeito",
+   "severidade": 3,
+   "observacao": "",
+   "quando": "2026-09-25T02:32:22.705Z"
+  },
+  "U017": {
+   "classificacao": "defeito",
+   "severidade": 2,
+   "observacao": "",
+   "quando": "2026-09-25T02:32:37.277Z"
+  },
+  "U018": {
+   "classificacao": "defeito",
+   "severidade": 3,
+   "observacao": "",
+   "quando": "2026-09-25T02:33:11.557Z"
+  },
+  "U019": {
+   "classificacao": "defeito",
+   "severidade": 2,
+   "observacao": "",
+   "quando": "2026-09-25T02:34:31.931Z"
+  },
+  "U020": {
+   "classificacao": "defeito",
+   "severidade": 2,
+   "observacao": "",
+   "quando": "2026-09-25T02:35:15.601Z"
+  },
+  "U021": {
+   "classificacao": "defeito",
+   "severidade": 3,
+   "observacao": "",
+   "quando": "2026-09-25T02:38:28.609Z"
+  },
+  "U022": {
+   "classificacao": "defeito",
+   "severidade": 1,
+   "observacao": "",
+   "quando": "2026-09-25T02:38:45.090Z"
+  },
+  "U023": {
+   "classificacao": "defeito",
+   "severidade": 3,
+   "observacao": "",
+   "quando": "2026-09-25T02:41:07.539Z"
+  },
+  "U024": {
+   "classificacao": "defeito",
+   "severidade": 3,
+   "observacao": "",
+   "quando": "2026-09-25T02:41:39.659Z"
+  },
+  "U025": {
+   "classificacao": "defeito",
+   "severidade": 2,
+   "observacao": "",
+   "quando": "2026-09-25T02:45:17.644Z"
+  },
+  "U026": {
+   "classificacao": "defeito",
+   "severidade": 3,
+   "observacao": "",
+   "quando": "2026-09-25T02:47:51.231Z"
+  },
+  "U027": {
+   "classificacao": "defeito",
+   "severidade": 4,
+   "observacao": "",
+   "quando": "2026-09-25T02:47:58.037Z"
+  },
+  "U028": {
+   "classificacao": "defeito",
+   "severidade": 3,
+   "observacao": "",
+   "quando": "2026-09-25T02:48:26.883Z"
+  },
+  "U029": {
+   "classificacao": "defeito",
+   "severidade": 3,
+   "observacao": "",
+   "quando": "2026-09-25T02:52:18.493Z"
+  },
+  "U030": {
+   "classificacao": "defeito",
+   "severidade": 2,
+   "observacao": "",
+   "quando": "2026-09-25T02:54:37.823Z"
+  },
+  "U031": {
+   "classificacao": "defeito",
+   "severidade": 3,
+   "observacao": "",
+   "quando": "2026-09-25T02:56:06.170Z"
+  },
+  "U032": {
+   "classificacao": "defeito",
+   "severidade": 2,
+   "observacao": "",
+   "quando": "2026-09-25T02:57:01.117Z"
+  },
+  "U033": {
+   "classificacao": "defeito",
+   "severidade": 3,
+   "observacao": "",
+   "quando": "2026-09-25T02:58:48.309Z"
+  },
+  "U034": {
+   "classificacao": "defeito",
+   "severidade": 3,
+   "observacao": "",
+   "quando": "2026-09-25T02:59:13.551Z"
+  },
+  "U035": {
+   "classificacao": "defeito",
+   "severidade": 2,
+   "observacao": "",
+   "quando": "2026-09-25T03:00:45.406Z"
+  },
+  "U036": {
+   "classificacao": "defeito",
+   "severidade": 3,
+   "observacao": "",
+   "quando": "2026-09-25T03:01:40.810Z"
+  },
+  "U037": {
+   "classificacao": "falso_positivo",
+   "severidade": null,
+   "observacao": "Não foi possível reproduzir. Os seletores se recolhem ao trocar entre campos.\nSó se mantém sobrepostos por uma fração muito pequena de tempo.",
+   "quando": "2026-09-25T03:03:27.005Z"
+  },
+  "U038": {
+   "classificacao": "falso_positivo",
+   "severidade": null,
+   "observacao": "Não foi possível reproduzir. Tanto a busca por \"Retornar\" em marcadores quanto \"Reunião\" em tipo de tarefa funcionaram como o esperado.",
+   "quando": "2026-09-25T03:09:09.224Z"
+  },
+  "U039": {
+   "classificacao": "defeito",
+   "severidade": 4,
+   "observacao": "",
+   "quando": "2026-09-25T03:10:25.516Z"
+  },
+  "U040": {
+   "classificacao": "defeito",
+   "severidade": 3,
+   "observacao": "",
+   "quando": "2026-09-25T03:11:17.681Z"
+  },
+  "U041": {
+   "classificacao": "defeito",
+   "severidade": 2,
+   "observacao": "",
+   "quando": "2026-09-25T03:13:21.932Z"
+  },
+  "U042": {
+   "classificacao": "defeito",
+   "severidade": 3,
+   "observacao": "",
+   "quando": "2026-09-25T03:18:16.329Z"
+  },
+  "U043": {
+   "classificacao": "defeito",
+   "severidade": 2,
+   "observacao": "",
+   "quando": "2026-09-25T03:20:40.757Z"
+  },
+  "U044": {
+   "classificacao": "defeito",
+   "severidade": 2,
+   "observacao": "",
+   "quando": "2026-09-25T03:20:54.841Z"
+  },
+  "U045": {
+   "classificacao": "defeito",
+   "severidade": 2,
+   "observacao": "",
+   "quando": "2026-09-25T03:24:07.167Z"
+  },
+  "U046": {
+   "classificacao": "defeito",
+   "severidade": 4,
+   "observacao": "",
+   "quando": "2026-09-25T03:24:23.479Z"
+  },
+  "U047": {
+   "classificacao": "defeito",
+   "severidade": 3,
+   "observacao": "",
+   "quando": "2026-09-25T03:24:43.766Z"
+  },
+  "U048": {
+   "classificacao": "defeito",
+   "severidade": 3,
+   "observacao": "",
+   "quando": "2026-09-25T03:25:24.660Z"
+  },
+  "U049": {
+   "classificacao": "defeito",
+   "severidade": 2,
+   "observacao": "",
+   "quando": "2026-09-25T03:27:56.538Z"
+  },
+  "U050": {
+   "classificacao": "defeito",
+   "severidade": 3,
+   "observacao": "",
+   "quando": "2026-09-25T03:28:54.759Z"
+  },
+  "U051": {
+   "classificacao": "defeito",
+   "severidade": 1,
+   "observacao": "",
+   "quando": "2026-09-25T03:29:18.095Z"
+  },
+  "U052": {
+   "classificacao": "falso_positivo",
+   "severidade": null,
+   "observacao": "É um comportamento padrão de ações de redimensionamento, e os 8 px de ação ficam em destaque no hover.",
+   "quando": "2026-09-25T03:30:52.185Z"
+  },
+  "U053": {
+   "classificacao": "defeito",
+   "severidade": 2,
+   "observacao": "",
+   "quando": "2026-09-25T03:33:10.572Z"
+  },
+  "U054": {
+   "classificacao": "defeito",
+   "severidade": 2,
+   "observacao": "A parte da scrollagem interna não foi possível reproduzir. As listas estão aparecendo com scroll.\nAchado aprovado pelo ponto de ficar encoberto e não inverter a direção de abertura.",
+   "quando": "2026-09-25T03:36:00.309Z"
+  },
+  "U055": {
+   "classificacao": "defeito",
+   "severidade": 3,
+   "observacao": "",
+   "quando": "2026-09-25T03:37:38.072Z"
+  },
+  "U056": {
+   "classificacao": "defeito",
+   "severidade": 3,
+   "observacao": "",
+   "quando": "2026-09-25T03:37:33.890Z"
+  },
+  "U057": {
+   "classificacao": "defeito",
+   "severidade": 3,
+   "observacao": "",
+   "quando": "2026-09-25T03:38:27.782Z"
+  },
+  "U058": {
+   "classificacao": "defeito",
+   "severidade": 3,
+   "observacao": "",
+   "quando": "2026-09-25T03:38:59.050Z"
+  },
+  "U059": {
+   "classificacao": "defeito",
+   "severidade": 2,
+   "observacao": "",
+   "quando": "2026-09-25T03:39:57.321Z"
+  },
+  "U060": {
+   "classificacao": "defeito",
+   "severidade": 3,
+   "observacao": "",
+   "quando": "2026-09-25T03:40:08.431Z"
+  },
+  "U061": {
+   "classificacao": "defeito",
+   "severidade": 3,
+   "observacao": "",
+   "quando": "2026-09-25T03:40:32.082Z"
+  },
+  "U062": {
+   "classificacao": "defeito",
+   "severidade": 2,
+   "observacao": "",
+   "quando": "2026-09-25T03:42:16.788Z"
+  },
+  "U063": {
+   "classificacao": "defeito",
+   "severidade": 4,
+   "observacao": "",
+   "quando": "2026-09-25T03:47:18.286Z"
+  },
+  "U064": {
+   "classificacao": "defeito",
+   "severidade": 1,
+   "observacao": "",
+   "quando": "2026-09-25T03:47:55.444Z"
+  },
+  "U065": {
+   "classificacao": "defeito",
+   "severidade": 2,
+   "observacao": "",
+   "quando": "2026-09-25T03:49:04.042Z"
+  },
+  "U066": {
+   "classificacao": "falso_positivo",
+   "severidade": null,
+   "observacao": "É uma característica das tarefas criadas, não da interface.",
+   "quando": "2026-09-25T03:49:45.496Z"
+  },
+  "U067": {
+   "classificacao": "defeito",
+   "severidade": 3,
+   "observacao": "",
+   "quando": "2026-09-25T03:51:23.437Z"
+  },
+  "U068": {
+   "classificacao": "defeito",
+   "severidade": 3,
+   "observacao": "",
+   "quando": "2026-09-25T03:51:49.509Z"
+  },
+  "U069": {
+   "classificacao": "defeito",
+   "severidade": 3,
+   "observacao": "",
+   "quando": "2026-09-25T03:52:41.175Z"
+  },
+  "U070": {
+   "classificacao": "defeito",
+   "severidade": 3,
+   "observacao": "",
+   "quando": "2026-09-25T03:55:08.746Z"
+  },
+  "U071": {
+   "classificacao": "defeito",
+   "severidade": 2,
+   "observacao": "",
+   "quando": "2026-09-25T03:55:37.998Z"
+  },
+  "U072": {
+   "classificacao": "defeito",
+   "severidade": 3,
+   "observacao": "",
+   "quando": "2026-09-25T03:59:15.194Z"
+  },
+  "U073": {
+   "classificacao": "defeito",
+   "severidade": 1,
+   "observacao": "",
+   "quando": "2026-09-25T03:59:40.870Z"
+  },
+  "U074": {
+   "classificacao": "defeito",
+   "severidade": 2,
+   "observacao": "",
+   "quando": "2026-09-25T04:00:13.017Z"
+  },
+  "U075": {
+   "classificacao": "defeito",
+   "severidade": 2,
+   "observacao": "",
+   "quando": "2026-09-25T04:00:46.706Z"
+  },
+  "U076": {
+   "classificacao": "falso_positivo",
+   "severidade": null,
+   "observacao": "É uma configuração do nome dado por quem cadastrou o usuário \"Usuário\".",
+   "quando": "2026-09-25T04:01:07.198Z"
+  },
+  "U077": {
+   "classificacao": "defeito",
+   "severidade": 2,
+   "observacao": "",
+   "quando": "2026-09-25T04:02:49.731Z"
+  },
+  "U078": {
+   "classificacao": "falso_positivo",
+   "severidade": null,
+   "observacao": "Não foi possível reproduzir. O comportamento do clique está correto e abrindo um formulário na data e horário clicados.",
+   "quando": "2026-09-25T04:04:00.553Z"
+  },
+  "U079": {
+   "classificacao": "defeito",
+   "severidade": 3,
+   "observacao": "",
+   "quando": "2026-09-25T04:05:37.961Z"
+  },
+  "U080": {
+   "classificacao": "falso_positivo",
+   "severidade": null,
+   "observacao": "Não ter o mini calendário apenas na visualização de mês poderia caracterizar um violação por despadronização.\nManter ele não é um problema.",
+   "quando": "2026-09-25T04:06:34.287Z"
+  },
+  "U081": {
+   "classificacao": "defeito",
+   "severidade": 2,
+   "observacao": "",
+   "quando": "2026-09-25T04:07:29.764Z"
+  },
+  "U082": {
+   "classificacao": "defeito",
+   "severidade": 2,
+   "observacao": "",
+   "quando": "2026-09-25T04:08:32.738Z"
+  },
+  "U083": {
+   "classificacao": "defeito",
+   "severidade": 4,
+   "observacao": "",
+   "quando": "2026-09-25T04:09:15.689Z"
+  },
+  "U084": {
+   "classificacao": "defeito",
+   "severidade": 2,
+   "observacao": "",
+   "quando": "2026-09-25T04:09:53.776Z"
+  },
+  "U085": {
+   "classificacao": "defeito",
+   "severidade": 3,
+   "observacao": "",
+   "quando": "2026-09-25T04:11:05.010Z"
+  },
+  "U086": {
+   "classificacao": "defeito",
+   "severidade": 4,
+   "observacao": "",
+   "quando": "2026-09-25T04:11:47.720Z"
+  },
+  "U087": {
+   "classificacao": "defeito",
+   "severidade": 2,
+   "observacao": "",
+   "quando": "2026-09-25T04:12:51.943Z"
+  },
+  "U088": {
+   "classificacao": "defeito",
+   "severidade": 2,
+   "observacao": "",
+   "quando": "2026-09-25T04:14:13.984Z"
+  },
+  "U089": {
+   "classificacao": "defeito",
+   "severidade": 1,
+   "observacao": "",
+   "quando": "2026-09-25T04:15:39.170Z"
+  },
+  "U090": {
+   "classificacao": "defeito",
+   "severidade": 2,
+   "observacao": "",
+   "quando": "2026-09-25T04:16:23.295Z"
+  },
+  "U091": {
+   "classificacao": "defeito",
+   "severidade": 3,
+   "observacao": "",
+   "quando": "2026-09-25T04:17:49.483Z"
+  },
+  "U092": {
+   "classificacao": "falso_positivo",
+   "severidade": null,
+   "observacao": "É por conta da natureza do objeto sendo avaliado.",
+   "quando": "2026-09-25T04:19:13.744Z"
+  },
+  "U093": {
+   "classificacao": "defeito",
+   "severidade": 1,
+   "observacao": "",
+   "quando": "2026-09-25T04:19:55.547Z"
+  }
+ },
+ "atualizado": "2026-09-25T01:19:55"
+}
