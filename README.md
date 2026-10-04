@@ -211,11 +211,13 @@ skill de caracterização e no texto da delegação das três skills de formato.
 > nos outros 326.
 
 A skill de unificação publicada é a que rodou, sem alteração. Dos scripts da análise, só o `metricas.py`
-mudou depois de rodar: em 3 out. 2026 saiu dele, e de `analise.md`, uma medida secundária de concordância
-de severidade que o estudo não reporta, e `metricas.json` e `metricas.md` foram regerados com a versão
-publicada, sem mudança em nenhum outro valor. Refeitos sobre os arquivos deste repositório, os scripts
-reproduzem byte a byte `prompt_unificacao.md` e `trilha_decisoes.csv`, e `metricas.json` com os mesmos
-números.
+mudou depois de rodar, junto com o §5 do `analise.md`: em 3 e 4 out. 2026 saíram dele os índices de
+sobreposição e de concordância de severidade que o estudo deixou de usar, e entraram a contagem de
+defeitos em comum por par de formatos e, na concordância de severidade, a proporção de notas a até um
+nível de distância e a direção da discordância. `metricas.json` e `metricas.md` foram regerados com a
+versão publicada, sem mudança em nenhum outro valor. Refeitos sobre os arquivos deste repositório, os
+scripts reproduzem byte a byte `prompt_unificacao.md` e `trilha_decisoes.csv`, e `metricas.json` com os
+mesmos números.
 
 Alguns textos citam arquivos internos do desenvolvimento que não foram publicados: `roteiro_estudo.md`,
 `embasamento_formatos.md`, o `README.md` do instrumento e o artefato "Roteiro do estudo", que a skill de

@@ -12,7 +12,8 @@ Uso:
 Convenções declaradas nas saídas:
 - desvio-padrão amostral (n − 1); vazio com menos de duas execuções;
 - moda da `severidade_ia` por defeito com empate resolvido pelo menor valor;
-- kappa ponderado com pesos lineares, categorias 0 a 4;
+- concordância de severidade por defeito: coincidência exata, notas a até um nível de distância e direção
+  da discordância (pesquisador acima ou abaixo do avaliador);
 - duplicação: os pontos de manifestação são os da IA, por achado unificado; quando o defeito tem mais de
   um ponto, recorrência e intrínseca saem juntas ("indeterminada").
 """
@@ -48,25 +49,13 @@ def razao(num, den):
     return None if not den else num / den
 
 
-def kappa_ponderado(pares, categorias):
-    """Kappa com pesos lineares. pares: lista de (a, b). Devolve None sem dados ou sem variação."""
-    if not pares:
-        return None
-    k = len(categorias)
-    idx = {c: i for i, c in enumerate(categorias)}
-    O = [[0.0] * k for _ in range(k)]
-    for a, b in pares:
-        O[idx[a]][idx[b]] += 1
-    n = len(pares)
-    lin = [sum(r) for r in O]
-    col = [sum(O[i][j] for i in range(k)) for j in range(k)]
-    num = den = 0.0
-    for i in range(k):
-        for j in range(k):
-            w = abs(i - j) / (k - 1)
-            num += w * O[i][j]
-            den += w * lin[i] * col[j] / n
-    return None if den == 0 else 1 - num / den
+def concordancia(pares):
+    """pares: lista de (nota do avaliador, nota do pesquisador), uma por defeito."""
+    return {"defeitos": len(pares),
+            "exata": razao(sum(1 for a, b in pares if a == b), len(pares)),
+            "ate_um_nivel": razao(sum(1 for a, b in pares if abs(a - b) <= 1), len(pares)),
+            "pesquisador_acima": sum(1 for a, b in pares if b > a),
+            "pesquisador_abaixo": sum(1 for a, b in pares if b < a)}
 
 
 def moda_menor(valores):
@@ -231,9 +220,7 @@ def calcular(trilha, encerramentos, fora):
             "severidade_ia_distribuicao": {str(k): v for k, v in sorted(sev_dist.items(), key=lambda kv: (kv[0] is None, kv[0]))},
             "consistencia_severidade": {"defeitos_em_mais_de_uma_execucao": total_multi, "coincidem": coincide,
                                         "proporcao": razao(coincide, total_multi)},
-            "concordancia_ia_pesquisador": {"defeitos": len(pares_f),
-                                            "exata": razao(sum(1 for a, b in pares_f if a == b), len(pares_f)),
-                                            "kappa_linear": kappa_ponderado(pares_f, [0, 1, 2, 3, 4])},
+            "concordancia_ia_pesquisador": concordancia(pares_f),
             "custo": {"tokens_soma": sum(tokens_f) if tokens_f else None, "tokens_media": media(tokens_f), "tokens_dp": desvio_padrao_amostral(tokens_f),
                       "duracao_ms_soma_total": sum(p["custo"]["duracao_ms_soma"] or 0 for p in pe) or None,
                       "defeitos_por_hora_media": media([p["custo"]["defeitos_por_hora"] for p in pe if p["custo"]["defeitos_por_hora"] is not None]),
@@ -245,8 +232,7 @@ def calcular(trilha, encerramentos, fora):
     R["sobreposicao"] = {
         "exclusivos": {f: {"n": len(Ds[f] - set().union(*(Ds[g] for g in formatos if g != f))),
                            "defeitos": sorted(Ds[f] - set().union(*(Ds[g] for g in formatos if g != f)))} for f in formatos},
-        "jaccard": {f"{f}∩{g}": {"intersecao": len(Ds[f] & Ds[g]), "uniao": len(Ds[f] | Ds[g]), "jaccard": razao(len(Ds[f] & Ds[g]), len(Ds[f] | Ds[g]))}
-                    for f, g in combinations(formatos, 2)},
+        "pares": {f"{f}∩{g}": {"intersecao": len(Ds[f] & Ds[g])} for f, g in combinations(formatos, 2)},
         "comuns_a_todos": len(set.intersection(*Ds.values())) if Ds else 0,
         "cobertura_por_defeito": {d: "".join(f if d in Ds[f] else "·" for f in formatos) for d in sorted(D)},
     }
@@ -259,11 +245,10 @@ def calcular(trilha, encerramentos, fora):
         if sev_p is not None and ia:
             pares.append((moda_menor(ia), sev_p))
     R["severidade"] = {
-        "concordancia_ia_pesquisador_agregado": {"defeitos": len(pares), "exata": razao(sum(1 for a, b in pares if a == b), len(pares)),
-                                                 "kappa_linear": kappa_ponderado(pares, [0, 1, 2, 3, 4]),
+        "concordancia_ia_pesquisador_agregado": {**concordancia(pares),
                                                  "distribuicao_diferenca": dict(Counter(a - b for a, b in pares))},
         "severidade_pesquisador_distribuicao": dict(Counter(str(U[d][0]["severidade_pesquisador"]) for d in D)),
-        "nota": "moda da severidade_ia por defeito, empate resolvido pelo menor valor; kappa ponderado, categorias 0 a 4",
+        "nota": "moda da severidade_ia por defeito, empate resolvido pelo menor valor; até um nível: notas que diferem em no máximo 1",
     }
     R["fora_do_escopo_por_formato"] = {f: fora_f.get(f, 0) for f in formatos}
     R["achados_unificados"] = {u: {"classificacao": classe[u], "severidade_pesquisador": ls[0]["severidade_pesquisador"],
@@ -282,6 +267,13 @@ def fmt(x, casas=3, pct=False):
     if pct:
         return f"{100 * x:.1f}%".replace(".", ",")
     return f"{x:.{casas}f}".replace(".", ",")
+
+
+def ate_um_nivel(c):
+    """Proporção de defeitos com notas a até um nível de distância, com a contagem."""
+    if c["ate_um_nivel"] is None:
+        return "—"
+    return f"{fmt(c['ate_um_nivel'], pct=True)} ({round(c['ate_um_nivel'] * c['defeitos'])} de {c['defeitos']})"
 
 
 def tabela(cab, linhas):
@@ -344,17 +336,22 @@ def md(R):
     so = R["sobreposicao"]
     S += ["## Sobreposição entre formatos", "",
           tabela(["Formato", "Defeitos exclusivos"], [[f, so["exclusivos"][f]["n"]] for f in fs]), "",
-          tabela(["Par", "Interseção", "União", "Jaccard"], [[k, v["intersecao"], v["uniao"], fmt(v["jaccard"])] for k, v in so["jaccard"].items()]), "",
+          tabela(["Par", "Interseção"], [[k, v["intersecao"]] for k, v in so["pares"].items()]), "",
           f"Defeitos comuns a todos os formatos: **{so['comuns_a_todos']}**.", ""]
 
     sev = R["severidade"]["concordancia_ia_pesquisador_agregado"]
+    linhas_sev = []
+    for f in fs:
+        cs, c = pf[f]["consistencia_severidade"], pf[f]["concordancia_ia_pesquisador"]
+        linhas_sev.append([f] + [pf[f]["severidade_ia_distribuicao"].get(str(n), 0) for n in range(5)]
+                          + [f"{cs['coincidem']} de {cs['defeitos_em_mais_de_uma_execucao']} ({fmt(cs['proporcao'], pct=True)})",
+                             fmt(c["exata"], pct=True), ate_um_nivel(c), c["pesquisador_acima"], c["pesquisador_abaixo"]])
     S += ["## Severidade", "",
-          tabela(["Formato"] + [f"nota {n}" for n in range(5)] + ["Consistência entre execuções (defeitos em ≥ 2 exec.)", "Concordância exata IA × pesquisador", "Kappa linear"],
-                 [[f] + [pf[f]["severidade_ia_distribuicao"].get(str(n), 0) for n in range(5)]
-                  + [f"{pf[f]['consistencia_severidade']['coincidem']} de {pf[f]['consistencia_severidade']['defeitos_em_mais_de_uma_execucao']} ({fmt(pf[f]['consistencia_severidade']['proporcao'], pct=True)})",
-                     fmt(pf[f]["concordancia_ia_pesquisador"]["exata"], pct=True), fmt(pf[f]["concordancia_ia_pesquisador"]["kappa_linear"])] for f in fs]), "",
+          tabela(["Formato"] + [f"nota {n}" for n in range(5)] + ["Consistência entre execuções (defeitos em ≥ 2 exec.)", "Concordância exata IA × pesquisador",
+                                                                  "Até um nível", "Pesquisador acima", "Pesquisador abaixo"], linhas_sev), "",
           f"Agregado (moda da severidade_ia por defeito × severidade_pesquisador, {sev['defeitos']} defeitos): concordância exata "
-          f"{fmt(sev['exata'], pct=True)}, kappa linear {fmt(sev['kappa_linear'])}. "
+          f"{fmt(sev['exata'], pct=True)}, até um nível {ate_um_nivel(sev)}, pesquisador acima em {sev['pesquisador_acima']} "
+          f"e abaixo em {sev['pesquisador_abaixo']}. "
           f"Distribuição de severidade_pesquisador: {R['severidade']['severidade_pesquisador_distribuicao']}.", ""]
 
     S += ["## Custo e eficiência", "",

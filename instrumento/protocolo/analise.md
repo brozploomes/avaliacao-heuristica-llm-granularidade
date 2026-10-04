@@ -164,16 +164,17 @@ duplicação: são consistência. Em **formatos diferentes**, são sobreposiçã
 
 ### Sobreposição entre formatos
 - **Defeitos exclusivos** de F: os de `D(F)` que não estão em nenhum outro `D(G)`.
-- **Sobreposição** por par: Jaccard, `|D(F) ∩ D(G)| ÷ |D(F) ∪ D(G)|`; e a contagem dos defeitos comuns
-  aos três formatos.
+- **Sobreposição** por par: defeitos em comum por par, `|D(F) ∩ D(G)|`, e defeitos comuns aos três
+  formatos.
 
 ### Severidade
 - Distribuição de `severidade_ia` por F.
 - **Consistência de severidade**: para defeitos com achados em mais de uma execução do mesmo F, se a
   moda da `severidade_ia` por execução coincide entre as execuções.
 - **Concordância IA × pesquisador**: por defeito, a moda da `severidade_ia` dos seus achados (empate
-  resolvido pelo menor valor) contra a `severidade_pesquisador`; proporção de coincidência exata e kappa
-  ponderado com pesos lineares, categorias 0 a 4.
+  resolvido pelo menor valor) contra a `severidade_pesquisador`; proporção de coincidência exata,
+  proporção de defeitos com notas a até um nível de distância e direção da discordância (pesquisador
+  acima e abaixo).
 
 ### Custo
 - **Tokens** e **tempo** por chamada e por (F,e), do registro de encerramento. Tempo de parede só é

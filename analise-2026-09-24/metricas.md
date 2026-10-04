@@ -109,23 +109,23 @@ Os pontos de manifestação são os da IA, por achado unificado; quando o defeit
 | B | 8 |
 | C | 3 |
 
-| Par | Interseção | União | Jaccard |
-|---|---:|---:|---:|
-| A∩B | 44 | 80 | 0,550 |
-| A∩C | 35 | 75 | 0,467 |
-| B∩C | 33 | 61 | 0,541 |
+| Par | Interseção |
+|---|---:|
+| A∩B | 44 |
+| A∩C | 35 |
+| B∩C | 33 |
 
 Defeitos comuns a todos os formatos: **31**.
 
 ## Severidade
 
-| Formato | nota 0 | nota 1 | nota 2 | nota 3 | nota 4 | Consistência entre execuções (defeitos em ≥ 2 exec.) | Concordância exata IA × pesquisador | Kappa linear |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|
-| A | 0 | 18 | 107 | 98 | 4 | 34 de 54 (63,0%) | 68,6% | 0,560 |
-| B | 0 | 4 | 67 | 87 | 1 | 20 de 37 (54,1%) | 53,7% | 0,236 |
-| C | 0 | 3 | 35 | 52 | 0 | 12 de 17 (70,6%) | 60,0% | 0,416 |
+| Formato | nota 0 | nota 1 | nota 2 | nota 3 | nota 4 | Consistência entre execuções (defeitos em ≥ 2 exec.) | Concordância exata IA × pesquisador | Até um nível | Pesquisador acima | Pesquisador abaixo |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| A | 0 | 18 | 107 | 98 | 4 | 34 de 54 (63,0%) | 68,6% | 97,1% (68 de 70) | 17 | 5 |
+| B | 0 | 4 | 67 | 87 | 1 | 20 de 37 (54,1%) | 53,7% | 94,4% (51 de 54) | 16 | 9 |
+| C | 0 | 3 | 35 | 52 | 0 | 12 de 17 (70,6%) | 60,0% | 97,5% (39 de 40) | 11 | 5 |
 
-Agregado (moda da severidade_ia por defeito × severidade_pesquisador, 83 defeitos): concordância exata 67,5%, kappa linear 0,550. Distribuição de severidade_pesquisador: {'4': 6, '2': 35, '3': 33, '1': 9}.
+Agregado (moda da severidade_ia por defeito × severidade_pesquisador, 83 defeitos): concordância exata 67,5%, até um nível 97,6% (81 de 83), pesquisador acima em 21 e abaixo em 6. Distribuição de severidade_pesquisador: {'2': 35, '3': 33, '1': 9, '4': 6}.
 
 ## Custo e eficiência
 
